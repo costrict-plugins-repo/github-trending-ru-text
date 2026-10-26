@@ -1,0 +1,913 @@
+8cd471bef3f633f16c89ed935606458d81644a97	SKILL.md:2	name ru-text
+cb329146a0dd0d566b0628744d67936558741ffa	SKILL.md:3	description
+7d4ba9c891e0699d6ed045008db4cd96195fa9d6	SKILL.md:4	Use when writing editing or reviewing Russian-language text or when user
+d2d1a428e9edfba03a9c8b8cf0ace6b6f0d111fb	SKILL.md:5	mentions ru-text Covers typography info-style editorial UX writing business
+77986ec1fbc3669c9a71b097e5ee7a5a3833a748	SKILL.md:6	correspondence AI-text cleanup Auto-activates on Russian text output
+4c24b2612e94e2ae622e54397663f2b7bf0a2e17	SKILL.md:7	metadata
+c0e408a0ac1ea21e5206e43deb9e95d3381f7f5f	SKILL.md:8	openclaw
+8d366ac66fb75ef6f601b4c82844cb7dabd40b61	SKILL.md:9	always true
+7d013fa0d7af4ef47b3624dcc83cb0e0a0e58a02	SKILL.md:10	emoji \U0001F4DD
+6fefd6d37da07ae1d9c661fbeead2674f048e9ec	SKILL.md:11	homepage httpsru-textorg
+098a645e1d5c0636b74da478b85d554ee8768a78	SKILL.md:16	Independent Russian text quality reference by Arseniy Kamyshev
+c5c5d50180bdc2112c78ea5d6a670abb48a38828	SKILL.md:17	With gratitude to the authors whose work shaped modern Russian text standards
+28f3a0fd50f0c527c5476677be945fa6c1396f8e	SKILL.md:18	Credits and recommended reading referencessourcesmd
+d2349d20190fe98dc2be22d252b979bc57db7308	SKILL.md:20	Style priority if the user explicitly requests a specific style casual academic SEO literary etc their prompt overrides these default rules where they conflict These rules are defaults not mandates
+faffeb52aaf28058af63570299a8d3d32e85d5fe	SKILL.md:22	Reviewing vs rewriting when checking or proofreading existing text or a file return the corrected version plus a list of changes - do not silently overwrite the source file Rewrite a file in place only when the user explicitly asks
+0ab829745216f69331f82c596a591273c878a015	SKILL.md:24	Always-On Typography
+b10c17f97a39ec942172464b47fe2095813afdc3	SKILL.md:26	Apply these rules to ALL Russian text output without exception
+d2b16b7293da89ff4bb42966e35668fa7ff576a9	SKILL.md:30	Primary quotes guillemets | текст | текст |
+6f76e408eaa7e739d57a07f3262932a476655784	SKILL.md:31	Nested quotes lapki | вложенные | вложенные |
+c8d31c111bc7dbfcad8367277e3e219dc8347911	SKILL.md:32	Em dash with spaces | слово - слово | слово - слово |
+3b7c457a177c3d916f6bc183eab704034a5cd1fd	SKILL.md:33	En dash for ranges no spaces | 10-15 дней | 10-15 дней |
+fab675d6803e189e724e5925b998544fc92fb33b	SKILL.md:34	NBSP after single-letter prepositions | в начале breakable | в\u00A0начале |
+1d46d6893e63db2efbd7629828c136245084c9eb	SKILL.md:35	Ellipsis single character | | … |
+9860ae9e0b3cfafefd3fa6b7de401fac8d3e6cd4	SKILL.md:36	Digit groups with thin spaces | 1000000 | 1 000 000 |
+10c46ca9a9b0db732a639beceac9abce7aa8636c	SKILL.md:37	Decimal comma not dot | 314 | 314 |
+2e271496bc447c3b9d50121023c596f1a8cb9f44	SKILL.md:38	Ordinal with hyphen | 1ый 2ой | 1-й 2-й |
+3f243767b00b66cff78bc5e9aaf44f6e14103b40	SKILL.md:39	Numero sign | No 5 5 | № 5 |
+7a67ead22b793f77c817b086c3d595379a0cdb3e	SKILL.md:40	Abbreviations with NBSP | тд те | т д т е |
+47416324f5bafb0425cbcc864a27f580dc0ebd2f	SKILL.md:41	Ruble symbol after number | 1500 руб | 1 500 ₽ |
+97eb635a1b1f91ed1c4cd679c89e4e49e1f3ec40	SKILL.md:43	Full typography reference referencestypographymd
+4d5a967dd23d6d7b598930797ec9e0989b4c42d7	SKILL.md:45	ru-textru-score - text quality score 0-10 5 dimensions
+7ba1cbfe55ddb5f1da299d1898752387a78c9d95	SKILL.md:47	Top Stop-Words remove or replace
+4d852d1b72bf9624973f3ed4a46fec2a2f84aa1f	SKILL.md:51	является | - dash or restructure |
+7e72ad3209afa0ef42d0d7928cdd189677510be0	SKILL.md:52	осуществлять | делать проводить |
+94593cf0d1cccd3485b615bd0926c3aed24cbce5	SKILL.md:53	в настоящее время | сейчас |
+7c6205eb92c029d0127f3ef9f9c3562beb147908	SKILL.md:54	данный | этот |
+3d83dc830a55cb2a5e911b99bf785c63129462da	SKILL.md:55	определенный | name the specific thing |
+34dcad9c11d66009b03ab0680c285adb2b0d05fb	SKILL.md:56	произвести оплату | оплатить |
+3063dd235d8a67779bea3abaebbbe0e358d36c04	SKILL.md:57	высококачественный | name the specific quality |
+51ef70432a9484c3d3f4e62b099f9fdf2f66a3a0	SKILL.md:58	был осуществлен | active voice actor |
+7bd6db0460ce94760bbff44897cadd60783a1838	SKILL.md:59	на сегодняшний день | сегодня |
+553e825333d5caa5510a7c301ba6b7c0d55d68c0	SKILL.md:60	в целях | чтобы |
+bce95e57762048ba39d660b8930240767105f195	SKILL.md:62	Full stop-word catalog 92 entries referencesinfo-stylemd
+debb7da3dbf85dd4f8886b3447f196f8bb9ef026	SKILL.md:64	When to Load Reference Files
+eb8e08e44413cf5febf2b16096675e32f8a81268	SKILL.md:66	Reference files paths are relative to this SKILLmd referencesfilename
+ab511c6967e16d8bafd5e520bb8d27ac2a6f015f	SKILL.md:67	If the path is not resolved search Globru-textreferencesscoringmd and use the parent directory
+d10e2d3ba8ebd60760f9814db9e44ca460dd0110	SKILL.md:71	Writingediting articles blog posts SEO content | info-stylemd |
+c8aa248a4a98396602896b30bb2177688c375374	SKILL.md:72	Interface text buttons errors hints microcopy | ux-writingmd |
+0d78484ee53bcd2c45a43ec539114c6ff756515c	SKILL.md:73	Emails messenger business correspondence | business-writingmd |
+ed5aad7d54212aa211662c6be0f73fea9cc1dc32	SKILL.md:74	Punctuation review comma placement | editorial-punctuationmd |
+fd92ada1ceb912dd520cb79ee6fe8aeb882ecbd3	SKILL.md:75	Grammar capitalization agreement pleonasms | editorial-grammarmd |
+cad5a7d5228eb549a359d46d84b15b4c869ec800	SKILL.md:76	Finding and fixing text problems diagnostics | anti-patternsmd |
+b1ba33c78353e76b6547b3c87c88fb9d54555b15	SKILL.md:77	Text scoring quality assessment | scoringmd |
+1a1a4acc6db895ea66d47e037b75168fa92b6f3a	SKILL.md:78	Credits source attribution | sourcesmd |
+f4fb7d90f71e60e824f5797d4c68da5fe2d38c3d	SKILL.md:79	Experience-based rules dash overuse etc | addendamd |
+d917ef26daf0549679803b87490d7dc5d86bcba3	SKILL.md:81	Quality Checklist
+2503173dea94bc45f53acbc656a044914a2cafa2	SKILL.md:83	Before delivering Russian text
+04ba70bf1e208fe0f4ceecb14d1447296de104db	SKILL.md:85	Quotes primary nested
+7e8133a5ed3e22e915464459fbfaf071a7b8f9f2	SKILL.md:86	Dashes - in text - in ranges - only in compounds max 1-2 per paragraph
+c51cffc64cf0fc9d15cbaea89083a1bfa822e5cb	SKILL.md:87	NBSP after в к с о у и а
+540c80f4f3c9ab9699bd42920b2c98d9e539025a	SKILL.md:88	Ellipsis … single char
+ff6aeb4e13fd68a9e1a7c856b5fe7a857c3cdf60	SKILL.md:89	Abbreviations т д т п with NBSP
+16b2c71d53a3062f20a38b9d3ed35f8cbd0f9900	SKILL.md:90	No double spaces no space before punctuation
+5ea2d81a89e0cdc89baf7cd1ff38cdfefa33ba78	gemini.yaml:1	interface
+6e519fd7701c0f6106144b002f73cf1b6e95337b	gemini.yaml:2	displayname ru-text
+ebb6dcae93c2eed6231bad511315e698d8d406e6	gemini.yaml:3	shortdescription Russian text quality - typography info-style editorial UX writing business correspondence and AI-text cleanup
+5ea2d81a89e0cdc89baf7cd1ff38cdfefa33ba78	openai.yaml:1	interface
+6e519fd7701c0f6106144b002f73cf1b6e95337b	openai.yaml:2	displayname ru-text
+ebb6dcae93c2eed6231bad511315e698d8d406e6	openai.yaml:3	shortdescription Russian text quality - typography info-style editorial UX writing business correspondence and AI-text cleanup
+9f00fad98badc1330e637a0a015d704113498420	openai.yaml:5	policy
+ddeedb5b2a5841a1b763d05a216e0c4c7bb92b70	openai.yaml:6	allowimplicitinvocation true
+eb6ab7de16b1ce236ac0c7df462c06e05b289d02	addenda.md:3	The rules below were added later from real editorial practice and were not part of the
+e4c6902f47011e8b106539aeb57a6d286df013e4	addenda.md:4	plugin's initial rule set Like the rest of the plugin they are independently formulated the
+34c746c4a3e0dd5e8b0ed8a9c0a6a5d872c00c55	addenda.md:5	sources in sourcesmd informed the work but no rule is taken or copied from them They are
+ca6709fd0f8b32d62c350000ea6cdaa45cc60add	addenda.md:6	supported by academic references Kept separate for traceability initial rule set vs experiential
+9913b746d0d886ea4561bc3a6590cff1b3837f73	addenda.md:7	additions
+c62c6141053710be26a710e23c76a4a2f0fdfb50	addenda.md:22	Neuroslop index
+33e697d72ac6c1a19c0ffdae1a0040292a3b5752	addenda.md:24	A compact catalogue of the recurring tells of AI-generated Russian prose each routed to the rule
+4c97b4b1ecaa30f60ced34f453bfffd589381e3e	addenda.md:25	that is its canonical home These tells skew by training era and instruction-tuning style rather
+227e7509a3ac7b60ac61d8ac93f04926fb0beea1	addenda.md:26	than by any single vendor a breakdown by specific model family is intentionally omitted as
+af13de0fd7d0343bd4f1030819e1b320f74eed44	addenda.md:27	unverifiable and fast-dating
+cd841eb3ea106ca1d840c0a79d569c40cab41ad4	addenda.md:31	Manufactured antithesis - не X а Y не просто X а Y with no antecedent | AD-6 |
+a684189633a5d6d2ca751530d6884650676ff9e4	addenda.md:32	Preemptive virtue qualifier - без воды четко по делу коротко и ясно | AD-7 |
+d1d2fbc40e8876dd05958ad2f92e0d5ddae7de99	addenda.md:33	Assistant-register meta-commentary - Отличный вопрос Надеюсь это помогло | AD-8 |
+4b91e73cafe123695d7456c6f9c17cba5a3a0fa2	addenda.md:34	Hollow opener - давайте разберемся погрузимся важно понимать что | AD-9 |
+dd36bc1120cc675a24d703ba683b83eb18da2182	addenda.md:35	Excessive em dashes - staccato dash rhythm | AD-1 |
+7b50fb4b261fed27c218978a805f4ebfd4b3ba68	addenda.md:36	Throat-clearing stop-words - стоит отметить что нельзя не отметить | info-stylemd §B |
+7c20cc9b59dc1cca1e55daaee46a00146cac0936	addenda.md:37	Empty universal preamble - в современном мире не секрет что | info-stylemd §B |
+0c4df6c1357aea686bf3ac69488074938ca981dd	addenda.md:38	Unproven-claim adjectives - качественный надежный эффективный | info-stylemd §B |
+3b3f56aa92346e90d4b7a244bfbaaf7f944754df	addenda.md:39	Generic conclusion - таким образом подводя итог | anti-patternsmd |
+16513cc8a21d7f583230242e5dc973d14543d466	addenda.md:40	Artificial liveliness - exclamation stacks and emoji as a substitute for detail | info-stylemd §F |
+b682846ff3efe226d74aa13139ade98ffeeba978	addenda.md:44	Excessive em dashes избыточные тире
+f20f3db668efa207861c674fbf5ba5224cd91ac9	addenda.md:46	Problem multiple em dashes in a paragraph create choppy rhythm monotony and an affected mannered tone
+2eb56be3c2d93cdab0c52e677e3167dfddb30ac5	addenda.md:48	Sources
+0888c8f41016dedcb68f60ba96d03d4a4e2bb6cf	addenda.md:49	Chekhov cautioned against overusing italics and dashes treating the habit as mannered lettersnotebooks
+d685bfba7b4ea7c2a9f24fcfef550b7b7eae3231	addenda.md:50	Rozental Практическая стилистика dashes should serve clear semantic function not be default punctuation
+b238ce520e48d0d06205f4a19b3fec420654fb2c	addenda.md:51	Gramotaru some writers abuse dashes the 1956 Rules of Russian Orthography note both extremes
+adb83b5e93999df94b7bec0048888444f3a68cdc	addenda.md:52	Gorky Dostoevsky used excessive dashes as INTENTIONAL literary device - not a model for non-literary prose
+bd563d83a7db58f535d831a2c7f8a353a5c1e25c	addenda.md:53	MilchinCheltsova restraint in editorial formatting
+bb11a8e3f8712e36e7cd9d1c615a4e3dbb03336a	addenda.md:55	Rules
+4d9c771a87f092c5e0e95bc632e0804bc94e8dae	addenda.md:57	Limit to 1-2 em dashes per paragraph in non-literary prose Three or more is a signal to restructure
+05243b3c57444f5498000b2a935847c4b27ba2ac	addenda.md:59	Never use em dashes as default punctuation when a more precise mark exists
+c41af5e03fb78d9ac0446cba3cce188124c3f6d8	addenda.md:60	Explanationenumeration → colon
+b3ce5d01279584d5c6552198d8ac70682ec6a7a5	addenda.md:61	Stronger pause between independent clauses → semicolon
+541eb25b8a6e460bf0949d8a05c4bf3cca1e3bec	addenda.md:62	Asideclarification → parentheses
+2cb1acade82ae92bfb641602f1979fb61a4ef493	addenda.md:63	Complex sentence → restructure into two sentences
+80641894d0ded3a7024f9ad216f0ed69e0e8ee10	addenda.md:65	Consecutive sentences with em dashes monotonous pattern Vary punctuation across sentences
+36b838f789eef83f2a32ee95106e95c8a8859b6d	addenda.md:67	Dash between subject and predicate тире между подлежащим и сказуемым is often skippable in conversational register - Rozental notes it's usually NOT placed in simple conversational-style sentences
+69012da234d79515da6ed44c4bd614bd39a8edb3	addenda.md:69	Test for mannered tone манерность read aloud If dashes create a staccato rhythm that feels artificial replace some with other constructions
+8cc01e206f12fd92098331db8194fd64cc8fa2b3	addenda.md:71	Replacement strategies
+e09985c9c99d98290f07bd04d694c7d126a40064	addenda.md:75	Москва - столица России | Москва столица России … | Appositive not emphasis |
+5088c3513f71251ad2e21e71d2352802abcf2bd1	addenda.md:76	Это - важно | Это важно | No emphasis needed conversational |
+2c582386d4095d777c3b4bb83303589274e06733	addenda.md:77	Он пришел - и замолчал | Он пришел и замолчал | No dramatic pause needed |
+241e697dd64701214cbe52ce4986debd169eb749	addenda.md:78	Результат - рост продаж | Результат рост продаж | Explanation follows |
+fb56310278a7e4cc4c67029fbffe23fea6da197a	addenda.md:79	Все готово - можно начинать | Все готово можно начинать | Two independent clauses |
+40af74d5e9e24bb2e5668c1b14abacd573b5d946	addenda.md:80	Скилл - набор правил - помогает | Скилл набор правил помогает | Aside not emphasis |
+5e404c474dd592371c8a3e767974f63e5bfbae49	addenda.md:84	Excessive parcellation избыточная парцелляция
+e2d17abaef2d3495022951918df153d6ab3ee6db	addenda.md:86	Problem splitting a single clause into several independent fragments for dramatic effect produces a choppy affected rhythm typical of online copywriting Parcellation is a legitimate stylistic device Розенталь Справочник ГЛАВА L - the issue is overuse in registers where it does not fit
+2eb56be3c2d93cdab0c52e677e3167dfddb30ac5	addenda.md:88	Sources
+21eb4a467001bc81f0168de538fd76426d650452	addenda.md:89	Розенталь Д Э Справочник по правописанию и стилистике ГЛАВА L - parcellation as a stylistic figure of expressive syntax
+1be905a79eca5c311ea15985829ef006f11c8c28	addenda.md:90	info-stylemd section D sentences should be compact but carry full meaning parcellation is неуместна in info-style
+b8235517415ae9503b63743a6c0078ecb40014d4	addenda.md:91	See also AD-1 analogous staccato-rhythm diagnosis for em dashes
+bb11a8e3f8712e36e7cd9d1c615a4e3dbb03336a	addenda.md:93	Rules
+bff53b21e502aa0950407a5046f7f399fc9dd835	addenda.md:95	In informational UX and business-writing registers merge parcellated fragments back into a single clause with appropriate conjunctions or punctuation
+3a7e8f5090a2ca3bf76aa324bf1d0981b3ca96c6	addenda.md:97	In publicism 1-2 parcellated constructions per article are acceptable as a rhythmic device more signals overuse
+787ab8d11abdd03fc5bbd968001a270f4b8e75b7	addenda.md:99	In literaryartistic prose parcellation is a legitimate author's device and is not penalized
+c4a0d0c517936b315f72ce55118ef2d87f0a649b	addenda.md:101	Diagnostic test read aloud If several consecutive sentences are subject-less fragments or single-phrase rebuttals the rhythm is staccato and likely excessive
+72bbb8807bd9b37fbad197a11edb44f2ba5d7e97	addenda.md:103	Examples info-style UX business context
+98000ffe3e07aac513fdab56d3c432f963520729	addenda.md:107	Не шум и не артефакт Воспроизводимый механизм | И это не шум или артефакт а воспроизводимый механизм |
+55678b4e697f98b23bca73a66cc5c2ef3cb5e0c3	addenda.md:108	Не потому что злой умысел А потому что невозможно | …не из-за злого умысла а потому что это невозможно |
+0105a54c37791df9403937b137c866ebacc4507d	addenda.md:109	Расскажу последовательно доступно без воды | Постараюсь объяснить доступным языком |
+ad8c5bd977e6883b6bb0f809778189c71e56d668	addenda.md:110	Это было не случайно Это было продумано Каждое слово | Это было не случайно - каждое слово продумано |
+8e9cc7e537a76798fa7fdeb7a36a74aa778c9c00	addenda.md:112	Severity Low Secondary signal in the С - Structure dimension supporting Ч - Clarity Cannot trigger non-compensatory caps alone
+39abbf89f2b0bdfa5fadc9af6082fd838d2ebbec	addenda.md:114	Acknowledged proposed by V8-Software in issue 9 2026-04-16
+d05e383e11bb0ac2327d613cb6cea04ebf186864	addenda.md:118	Patronizing explanation разжевывание очевидного
+e845b4b9fcac8fc236024d37a8e39d3523fd9eb0	addenda.md:120	Problem explaining what the context has already conveyed treats the reader as unable to make simple inferences Over-explanation lowers pace lowers trust and adds words without information
+bba522f55f7663fdc362116317cdc3d5ba2ad82f	addenda.md:122	Not to be confused with примитивизация as used in info-stylemd section A point 2 Сокращение - забота о читателе не примитивизация There примитивизация means oversimplification at the cost of meaning eg removing necessary qualifiers This rule concerns the opposite failure redundant explanation of what the sentence has already conveyed Both rules defend reader intelligence - from different directions
+2eb56be3c2d93cdab0c52e677e3167dfddb30ac5	addenda.md:124	Sources
+7798453374b719b16429b60f05c24077b131ccc4	addenda.md:125	Editorial practice around respect the reader's intelligence cf N Gal Ilyakhov
+8ec5a9f30eb6dc539f2460b50cdf9871353573bd	addenda.md:126	Over-explaining in writing liminalpagescom writingcodidactcomposts75048
+43adaaea09cdabf10d451e19751f8aa79830847f	addenda.md:127	info-stylemd section A point 2 - companion principle against the opposite failure
+bb11a8e3f8712e36e7cd9d1c615a4e3dbb03336a	addenda.md:129	Rules
+a749b9f49f6b0e64194a2e53d0659352c3aba280	addenda.md:131	If a sentence already conveys a fact do not immediately re-state it in a simpler metaphor or reformulation
+d635a101b8e471bd5a3f5041b86a15050a11750e	addenda.md:133	Numeric comparisons that are self-evident to the reader do not need verbal paraphrase
+0f1319a2df597e3a51e4cb8123c1ce960c559aed	addenda.md:135	Qualifiers like то есть другими словами проще говоря are warning signs - verify that the following clause actually adds information not just rewords the preceding one
+eb01bf04c9a0e8a71c45816513df424f1c7ffedb	addenda.md:137	Examples
+87d39d164ed3563ae36c51b9f40831b7fcfc800b	addenda.md:141	Конверсия выросла с 2 до 8 то есть стала в четыре раза больше | Конверсия выросла с 2 до 8 |
+81ae2a733e8221a16d5a752fff91f021ceaa35f1	addenda.md:142	Мы сократили расходы на 30 - это почти треть бюджета | Мы сократили расходы на 30 |
+12548f09b0b41875256d0b8c0cf8824238877d4d	addenda.md:143	Пользователи тратят 12 минут другими словами больше десяти | Пользователи тратят 12 минут |
+23186fb4058a97bdc77591da130e921e98a5e28d	addenda.md:145	Severity Low Secondary signal in the Ч - Clarity dimension Cannot trigger non-compensatory caps alone
+9573e3839511db7ba84e9380a08e63e02afbaf02	addenda.md:147	Acknowledged proposed by V8-Software in issue 9 2026-04-16 as Примитивизация renamed to avoid terminological collision with info-stylemd A2
+3ff52c446bcebcf5ff989e19f73e5d0dc93729a9	addenda.md:151	Unprovoked rebuttal возражение без предпосылок
+c4cfc5a40817ead3f0a9e47d145e1a7c627df75c	addenda.md:153	Problem constructions like а это уже… но на самом деле… однако в реальности… presuppose a prior claim that the writer is now refuting When no such claim exists in the preceding text the rebuttal invents an imaginary opponent and creates a non-existent conflict cf straw man non-sequitur
+2eb56be3c2d93cdab0c52e677e3167dfddb30ac5	addenda.md:155	Sources
+40bb2a0d08d9465e6a99812a6250d57dad94d341	addenda.md:156	Straw-man fallacy and non-sequitur Grammarly Scribbr Excelsior Online Writing Lab
+b06f095b01083e1ed1909fd1a54e46d9bd187ac3	addenda.md:157	The rhetorical idea that a speaker argues against an opponent who may be real or imagined HSE Риторика nnovhseru
+266a15f9267f4f7b4d17accb048de1fff93995a0	addenda.md:159	Trigger constructions
+8748c626e406692d4ff3437914715b59501e6d05	addenda.md:161	а это уже нечто важноесерьезное
+f88761fb29cce51c72535e10190c96e8e8921df6	addenda.md:162	но на самом деле… на самом-то деле…
+fb5c7d7105f1df007d38e9b16614e2183258373b	addenda.md:163	однако в реальности… однако на практике…
+f5f7ec6f9326033bc717f1de98e26af879291a3f	addenda.md:164	но при этом нужно понимать что…
+912616773487d53178970739e86eba67b98c3f4b	addenda.md:165	только вот…
+bb11a8e3f8712e36e7cd9d1c615a4e3dbb03336a	addenda.md:167	Rules
+9af73d20334da7e5b2fcfdd4fe6898181f07a03e	addenda.md:169	Before any adversative construction verify that the preceding text within the same section or 1-2 paragraphs back contains a claim that is actually being rebutted
+dec2928e967629bf12607229ac4b26ba85e0c794	addenda.md:171	If no antecedent exists rewrite as a direct positive statement - remove the pseudo-rebuttal scaffolding
+18d09e73a2c04d5aa5fd94853f9acbd3405d150c	addenda.md:173	Legitimate use rebutting a cited source an earlier paragraph of the same text or a reader expectation that the context makes explicit
+eb01bf04c9a0e8a71c45816513df424f1c7ffedb	addenda.md:175	Examples
+ad2e7fa80f70e2ba240a9b9e1b718823a0d7879f	addenda.md:179	…а это уже реальный сценарий в котором модели постоянно обучают друг друга | …данных которыми модели постоянно обучают друг друга |
+1db71c15b0ff65ad18793c4208a9a09a2eb654c7	addenda.md:180	Но на самом деле алгоритм обрабатывает 10 000 запросов в секунду | Алгоритм обрабатывает 10 000 запросов в секунду |
+048e25535063dee910fd058f572547f6b25d9e10	addenda.md:181	Однако в реальности пользователь открывает приложение раз в день | Пользователь открывает приложение раз в день |
+8e9cc7e537a76798fa7fdeb7a36a74aa778c9c00	addenda.md:183	Severity Low Secondary signal in the С - Structure dimension supporting Ч - Clarity Cannot trigger non-compensatory caps alone
+39abbf89f2b0bdfa5fadc9af6082fd838d2ebbec	addenda.md:185	Acknowledged proposed by V8-Software in issue 9 2026-04-16
+7904f2850ab351de4c28d812ad66c10af81728b1	addenda.md:189	Subject-predicate semantic mismatch семантическое несоответствие субъекта и предиката
+190306d65e358a13b9944bbd06ee3c55bdfa818b	addenda.md:191	Problem using a predicate whose semantics imply volition consciousness resistance or goal-directed intent applied to a subject that has none of these A narrow subset of the broader phenomenon of lexical-semantic compatibility лексическая сочетаемость семантическая валентность - Текстологияру studmeorg
+0ff6dfadcb0ec45fcb7b77a29df8fc8bb0c3ccb4	addenda.md:193	Scope restriction important this rule targets only cases where the mismatch creates a false implication of will consciousness resistance or intent It does not condemn technical or mathematical personification that has become normative terminology
+2eb56be3c2d93cdab0c52e677e3167dfddb30ac5	addenda.md:195	Sources
+e451d1d63a6e268f3a585c8f4239062847ff1d15	addenda.md:196	Лексическая сочетаемость и семантическая валентность Текстологияру studmeorg43201 scihouserusskiy-yazyik
+d2c1850470f1c9485105d19abd8404b530f5817f	addenda.md:197	Antropomorphism as a recognized cognitivelinguistic phenomenon Большая Российская Энциклопедия article Антропоморфизм
+bb11a8e3f8712e36e7cd9d1c615a4e3dbb03336a	addenda.md:199	Rules
+7fd46b0123e46af8004f46fd981b6c52433eab94	addenda.md:201	Do not use verbs implying conscious will resistance or goal-seeking for subjects that lack them abstract entities software without an agent inanimate processes in non-technical prose
+f0b3cd9838b3950005cec7c473cfad0c62764478	addenda.md:203	Exception - normative technical terminology In mathematical algorithmic ML and general technical writing the following are legitimate and do not trigger this rule
+3a8a54c3d1957fba03d5f79c1cfcb699cff59501	addenda.md:205	сходимость алгоритма последовательность сходится
+f340e37c82badb63c1ada1d6e85b6b5ebe8af9b4	addenda.md:206	алгоритм стремится к оптимуму к пределу mathematical limit sense
+8b6c03610f2d078281dd6072e7a8f3931004f1fa	addenda.md:207	модель обучается сеть обучается
+24414c33223878416a7bb359d3a6cf73be9cbc2c	addenda.md:208	программа система принимает решение
+fda82122e664df6615bbbbb414e8da5f3b8d1430	addenda.md:209	память компьютера ответ системы запрос пользователя
+c28f9896de4de35bc312ff2dcb3862d9f6af82cf	addenda.md:211	Rule of thumb if a domain textbook uses the construction it is terminology not anthropomorphism
+a7faff903c0d1130d7bc923a2f4570bebe32c3aa	addenda.md:213	Apply the diagnostic would a reader infer conscious will or resistance from the predicate If yes and the subject lacks these properties rewrite If the predicate is a technical term or a well-established metaphor already catalogued in domain usage leave it
+eb01bf04c9a0e8a71c45816513df424f1c7ffedb	addenda.md:215	Examples
+33fb52ae194c19d79f1f9493bbf01ff09835c126	addenda.md:219	Модель заставили генерировать числа | Модели дали задачу генерировать числа | заставить presupposes will to resist |
+c35a53052ca690326ef7b998d025fc5308f99426	addenda.md:220	Программа не хочет сохранять файл | Программа не может сохранить файл отказывается сохранять файл | хотеть implies conscious desire |
+7282ec9f53f3bd6d73bf215ea157e22fbc08f829	addenda.md:221	Модель осознала ошибку и исправилась | Модель выдала ошибку и на следующей итерации - корректный результат | осознание implies reflective consciousness |
+4970a572d3191d4a9c99c256f1bd1f5ed2e90638	addenda.md:223	Counter-examples do NOT flag
+118b0e698b5d6b456b1b2112a2b49d78ae6531ab	addenda.md:227	Алгоритм стремится к оптимуму | Standard optimization terminology mathematical limit sense |
+75a3d38e5a43831ac3ae18990599f96d675d0433	addenda.md:228	Градиентный спуск сходится к локальному минимуму | Standard calculusoptimization term |
+52a2eacbe0ff6b996c5cba6d1904bcc901c2663e	addenda.md:229	Машина решает задачу за 3 секунды | Established technical usage - in technical writing such anthropomorphic terms rest on an objective similarity rather than literal animacy cf БРЭ Антропоморфизм |
+b51dc537731373ca61418bc7e1024f1aa0dd5931	addenda.md:230	Сеть обучается на 10 000 примеров | Standard ML terminology |
+42463f8a7288cd8f655ca3355ae4d6d1193b8283	addenda.md:232	Severity Low Secondary signal in the Ч - Clarity dimension supporting Г - Grammar with explicit technical-context exception Cannot trigger non-compensatory caps alone
+37443d72dbe4746a7fd43b436b177de73c8e957d	addenda.md:234	Acknowledged proposed by V8-Software in issue 9 2026-04-16 with the example Алгоритм стремится → Алгоритм становится That example is preserved here as a counter-example illustrating the exception boundary per deep-research review of mathematical and ML usage norms
+d1b773db835d53f2de0f68ee9a00356a3166bcae	addenda.md:239	Manufactured antithesis ложная антитеза
+4b7265b4710cab8522c8af81ee590b32e40086c6	addenda.md:241	Problem a symmetric contrastive-negation pair - не X а Y это не X это Y X - это не Y Это Z не про X а про Y не потому что X а потому что Y не там где X а там где Y - where the negated pole X was never voiced in the preceding text and is not a reader expectation the context made explicit The pair invents a rejected pole only to throw the true pole Y into relief manufacturing rhetorical tension and arguing against an opponent who never spoke It is one of the strongest machine-generation tells in Russian prose in measured corpora it appears far more densely in generated text than in live human writing where the natural device is the opposite asymmetric self-correction вернее… то есть… не то чтобы X но Y that refines what was just said AD-6 targets the manufactured symmetric replacement the asymmetric refinement is always allowed
+2eb56be3c2d93cdab0c52e677e3167dfddb30ac5	addenda.md:243	Sources
+759c7401c8d9cd4460e1d91266426bc32d4a7ce6	addenda.md:244	Antithesis as a rhetorical figure and the cost of its hollow imitation editorial practice informed by Розенталь Практическая стилистика on противопоставление
+ac31fdad40c2c213dfd957614c9b9c9ae187d286	addenda.md:245	Distinct from AD-4 AD-4 is a one-sided rebuttal of an unvoiced claim AD-6 is a two-pole symmetric fork
+a6c5c9d6b24e461218cc944f10a1243779805d28	addenda.md:246	Independently formulated from corpus analysis of AI-generated Russian prose
+266a15f9267f4f7b4d17accb048de1fff93995a0	addenda.md:248	Trigger constructions
+12fbd9b120b4a696b42b902f1cfead431e974e73	addenda.md:250	не X а Y X а не Y - X has no antecedent within the preceding 1-2 paragraphs
+46b3a0e51dcdd7550aaf3ff2e26617af2da5c769	addenda.md:251	это не … это … X - это не Y Это Z - two equiweight definitions of one subject often split by a period
+c0d0d60852a0d76191cc2fd8f191cfac4ef22572	addenda.md:252	не про X а про Y дело не в X а в Y вопрос не в X а в Y суть не в X а в Y - the topic swapped through a phantom rejected topic
+f067cbaeb1acf0ef0d179844606172600306946d	addenda.md:253	не просто X а Y - the hype escalation flag on the AD-61 test especially when Y is itself inflated целый настоящий полноценный Hype in Y is a signal not a standalone trigger
+fb9dce2f5b734b82aef7392a8e22181137578af5	addenda.md:254	не потому что X а потому что Y - a cause X that no one supposed
+5cfe7e3577751e9d3e486b01b812e23da0c6abae	addenda.md:255	не там где X а там где Y - a locative pseudo-antithesis with no premise
+e78f138b1402e9a114bc4d69d1eadfdeef7fc818	addenda.md:256	не паранойя и не все видят - a pre-emptive string negating labels nobody put forward
+52042ba7d26e9d3a5adc056b9d7579a258e031ec	addenda.md:257	a cluster of two or more such pairs within 150 words - density is the strongest signal
+bb11a8e3f8712e36e7cd9d1c615a4e3dbb03336a	addenda.md:259	Rules
+0ac634cd49d02551a2249142473a8ff072c2ddff	addenda.md:261	Flag only when all three conditions hold any one failing → leave 1 no antecedent - X was not voiced in the preceding 1-2 paragraphs and is not an explicit reader expectation 2 symmetry - X and Y form an equiweight binary of comparable rank and parallel grammar not a narrowing 3 zero increment - drop the не X clause and no fact is lost Y stands whole
+e53456262a2b8ad9d9d67f7d7e3ea6772dd260c6	addenda.md:263	Rewrite a flagged pair as a direct positive statement keep Y drop the phantom X X - это не Y а Z → X - это Z Do not trade one machine construction for another - removing не X а Y must not introduce но на самом деле Y that is AD-4 Carry the assertion with a fact a number an image or rhythm
+9fc262210e0fba80920ec4d3d70fd23e86e0d8ff	addenda.md:265	If the contrast is genuinely needed earn it let X be voiced first as a real thesis a citation or a reader expectation the context made explicit the AD-43 mechanism With an antecedent in place а Y is a legitimate antithesis
+6be8727b7ca225d4208047c8950fe8c7818b282f	addenda.md:267	Asymmetric self-correction is never flagged вернее… то есть… по сути… не то чтобы X но Y Here X is physically present in the preceding clause and the second clause narrows or qualifies the first refinement not replacement
+288e8585915432f92b839ba2772f9d8a72b3b4d9	addenda.md:269	quota Headings 0 - antithesis in a heading is the loudest tell and reads as clickbait Sub-headings and leads rare and only with a real antecedent in the body default 0 Body 0-2 legitimate pairs per article antecedent present or concrete data on both poles Manufactured pairs are always 0 regardless of the limit self-corrections and antecedent-backed antitheses are not counted toward it
+03201c37c1b106c8c7e2ac0457d974b750fef458	addenda.md:271	Single-count with neighbours A phantom contrast can also read as AD-4 one-sided rebuttal or AD-2 parcellation when split on periods Count one violation per fragment AD-6 takes precedence for a symmetric two-pole fork a one-sided но на самом деле… with no named counter-pole stays AD-4 Do not double-charge Structure
+9c4cf34ed563ee41fbb9ea83b892912066710419	addenda.md:273	scope of strengthening The trigger set now includes не просто X а Y and вопроссуть не в X а в Y Two look-alikes are NOT auto-flagged не столько X сколько Y a degree-narrowing cf AD-64 and важно не X а Y without an antecedent often a real reader priority A cluster of manufactured pairs bites harder in С - Structure see scoringmd the carve-outs hold - asymmetric self-correction AD-64 and the 0-2 legitimate antecedent-backed body pairs AD-65 are never penalised and the construction is never banned outright
+eb01bf04c9a0e8a71c45816513df424f1c7ffedb	addenda.md:275	Examples
+6aeb654009975bdcaed7faaa55149ea70a683f14	addenda.md:279	Это не баг а фича | Так и задумано |
+6396b267dc874cc7971563c12e21300a369e042f	addenda.md:280	Это не про скорость а про надежность | Это про надежность |
+acceb9fd5fe1922f507577536d490b90e4194099	addenda.md:281	ИИ - это не инструмент Это образ мышления | ИИ меняет то как я думаю о задаче |
+4b9b312660305b0b4164671ed9c8db0657cb1580	addenda.md:282	Дело не в модели а в промпте | Все решает промпт |
+6e547ad535b683f12182490c060be24950eb798d	addenda.md:283	Не медленно а быстро | Отвечает за 200 мс |
+9da8b6e04b25270e8afe2768b58363ea0c5d7921	addenda.md:284	Это не просто инструмент а целая экосистема | Это экосистема редактор отладчик пакетный менеджер |
+4970a572d3191d4a9c99c256f1bd1f5ed2e90638	addenda.md:286	Counter-examples do NOT flag
+ce22a931c985e65515335ab747e4c6f27aa0144f	addenda.md:290	Хочу и буду Вернее буду когда хочу | Asymmetric self-correction X is present the second clause narrows it |
+2c3a689fe23ab509bba94b0dd8d7cd1f9f844252	addenda.md:291	Это не неуверенность - это точность мышления вслух | The negated pole is a real reader misreading the context invites antecedent satisfied |
+6d623fa70347fa9cfa59ee32780b21580688abbc	addenda.md:292	Выросло не на 2 а на 40 | Both poles carry data deletion loses information |
+80519db463dd66a396da80636c74fb7fdb5c9a99	addenda.md:293	Не мытьем так катаньем | Fixed idiom |
+a344e674fc5efe949b84798d099656c8d3072cb6	addenda.md:294	Не оферта а приглашение делать оферты | Legal formula where the binary is operative semantics |
+f864dd47bb2385616b78b6dfd6947fad7a6daeb7	addenda.md:295	Не столько баг сколько недокументированное поведение | Degree-narrowing не столько… сколько X is present and partly true the clause refines rather than replaces cf AD-64 |
+1c3eef325f3779dfdbf1a2ea68931fce5bd41ed3	addenda.md:296	Он сделал это не просто так а с умыслом | не просто так is a fixed idiom for a reason not the не просто X а Y hype escalation |
+375f93ee92b227bc964442ca790409a18ce890a2	addenda.md:298	Severity Medium - the manufactured antithesis is the single strongest machine-generation tell in this addenda set and density compounds fast Primary signal in the С - Structure dimension supporting Ч - Clarity reflected in the С rubric anchors A cluster of manufactured pairs materially lowers the С score a single antecedent-backed pair does not Still cannot by itself trigger a non-compensatory cap - that stays reserved for the hard dimensions and the global 30 floor
+6cead602abba5d51cd97700a6d8a08ad887ad27a	addenda.md:300	Acknowledged identified from corpus analysis of AI-generated Russian prose 2026-06 the contrastive-negation antithesis runs at high density in machine drafts and near-zero in human reference corpora
+7dd8e93b1ca5ed18601fb2e4d5b59d0f27d5b06d	addenda.md:305	Preemptive virtue qualifier непрошенная оговорка без воды
+04480780dab8bf94cfb0277b31d3939203e8a9db	addenda.md:307	Problem a trailing manner-flourish that asserts the author's virtue by denying a fault the reader never raised - без воды без виляния без лишних слов начистоту честно говоря прямо скажем не побоюсь этого слова и без всякой магии The statement reassures the reader against a vice nobody suspected so the qualifier carries no information and only performs sincerity It is a cousin of AD-4 where AD-4 rebuts an unvoiced external claim AD-7 denies an unvoiced fault of the author's own delivery The same flourish also appears in positive polarity - четко по делу коротко и ясно простыми словами разложу по полочкам - naming a delivery virtue the text should simply demonstrate it is flagged identically Virtue is shown by the writing never announced
+2eb56be3c2d93cdab0c52e677e3167dfddb30ac5	addenda.md:309	Sources
+0f20725e2161310196dd2d63c1d0b3e1e239a4cc	addenda.md:310	Telling vs showing and self-praise as an empty signal editorial practice informed by Нора Галь Слово живое и мертвое on needless self-qualification
+84d163f643dd0c44c2de8d89b996d8e142669d6a	addenda.md:311	Adjacent to AD-4 unprovoked rebuttal and AD-3 patronizing explanation
+a6c5c9d6b24e461218cc944f10a1243779805d28	addenda.md:312	Independently formulated from corpus analysis of AI-generated Russian prose
+266a15f9267f4f7b4d17accb048de1fff93995a0	addenda.md:314	Trigger constructions
+b7d06ae419dfd6b760703922ecc0db6558600ff9	addenda.md:316	без воды без виляния без лишних слов без обиняков - a manner-flourish denying a vice of delivery
+073818497d634954846e851dd25f4fc2ee0d8049	addenda.md:317	честно говоря начистоту прямо скажем не побоюсь этого слова - announced sincerity
+f5289d8f1e8b4ba6380886041b3d925760b67560	addenda.md:318	и без всякой магии без всяких фокусов без нервов appended to a claim about one's own product or method
+cc6a325a14e06641fc57ec817957df36d45ebb12	addenda.md:319	четко по делу коротко и ясно простыми словами разложу по полочкам на пальцах - a positive-form flourish praising the author's own delivery the polarity twin of без воды
+667c7f767693185cf4042189c73b3dc691020f0f	addenda.md:320	a self-praise tricolon about one's own product or method - быстро качественно надежно - where each adjective is itself an unproven claim cf info-stylemd §B and the rule-of-three stacking is the added tell
+c2663710fbaa62c462d2324686bcae4c4a060585	addenda.md:321	a virtue adverb stacked on a self-statement where deleting it loses no fact
+bb11a8e3f8712e36e7cd9d1c615a4e3dbb03336a	addenda.md:323	Rules
+e3c9141ed601ac298165205d3d62dced5ebbdf4b	addenda.md:325	Flag a без vice or virtue говоря qualifier when it 1 characterises the author's own delivery or method 2 denies a fault the text never raised and 3 carries no information - deleting it loses no fact
+e0810e19fa90b0427256802da52387d642d2240f	addenda.md:327	Rewrite by deleting the qualifier and letting the statement stand the virtue is demonstrated by the writing Соберу мысль без виляния → Соберу мысль
+68f0ae00afb4be6046d5e3c87a2bf758a8acbfed	addenda.md:329	Allow informative без кофе без сахара работает без интернета ноль vi-моков без заглушек без регистрации - here без names a real removed ingredient dependency or feature not a manner
+e67385dfbbae1443e49e07edbd0986866102ef99	addenda.md:331	Allow a genuine epistemic qualifier that carries information строго говоря это аппроксимация по сути when it narrows the claim cf AD-64 These calibrate meaning they do not advertise sincerity
+30010ef1b6aec2c227d27f2507dd894a5d8bb276	addenda.md:333	register Conversational and literary registers честно говоря прямо скажем по правде сказать as natural discourse markers of live speech or a character's voice - not a statement about the author's own product or method - are not flagged The target is the self-promotional manner-flourish AD-71 condition 1 not ordinary spoken connective tissue When in doubt apply AD-71 if the qualifier praises the author's own delivery flag it if it merely colours conversational tone leave it cf AD-23 which likewise spares the literary register
+f51592b52db9cdd78cd9281ea5dd70add9c5c1d7	addenda.md:335	Single-count with neighbours A без vice flourish can also be caught by AD-2 parcellation filler rhythm in Structure - the без воды tail in Расскажу последовательно доступно без воды is one fragment not two faults Count one violation per fragment charge it to AD-7 Ч - Clarity when the defect is the empty self-virtue to AD-2 С - Structure when the defect is the staccato or filler rhythm Never double-charge the same fragment across Ч and С
+c5a9e0acd284159153d2377399ff451746c9d76e	addenda.md:337	Positive-form delivery self-praise is flagged on the same AD-71 test it 1 characterises the author's own delivery or method 2 names a virtue the writing should simply demonstrate and 3 carries no fact - deleting it loses nothing Объясню четко по делу → Объясню then actually do Do NOT flag a qualifier that previews concrete content that immediately follows Объясню коротко значение лежит в стеке carries information about what comes next and stays An established genre or rubric label - a column or book title … на пальцах … простыми словами - is a recognised popular-science convention not a delivery flourish and is not flagged
+6495cf09235d4c7264ad6360560533a3403e15ab	addenda.md:339	single-count with info-style §B The unproven-claim tricolon быстро качественно надежно is also three §B unproven adjectives info-stylemd §B качественныйнадежныйэффективный family Count it once in Ч - Clarity charge AD-7 when the defect is the self-virtue rule-of-three or info-style §B when the defect is the missing evidence per the domain brief - never both for the same fragment
+eb01bf04c9a0e8a71c45816513df424f1c7ffedb	addenda.md:341	Examples
+e4a387b004fc5855d29beb99b1d754f525ec7309	addenda.md:345	Соберу мысль без виляния | Соберу мысль |
+1ef017e1469a2a74de981658451d3fe762881d00	addenda.md:346	Отвечу честно без воды дедлайн сорван | Дедлайн сорван |
+3dee072ee450d1ce79a7453a47dedd9798d65450	addenda.md:347	Скажу прямо без обиняков тест не проходит | Тест не проходит |
+72aab8093ae2f47197cf97197ca97d939d1f17ba	addenda.md:348	Это работает и без всякой магии | Это работает |
+2fde350f5f5338da9a70089c36d7baad3f04de37	addenda.md:349	Max 20× закрывает запрос начисто без нервов | Max 20× закрывает запрос |
+c4370d52dbf4cea635519a5cfda0deb79421f9c0	addenda.md:350	Объясню четко по делу без воды | Объясню |
+23a122644b29e3f00f757215416529f8312d2e7d	addenda.md:351	Расскажу простыми словами разложу по полочкам | Расскажу |
+4970a572d3191d4a9c99c256f1bd1f5ed2e90638	addenda.md:353	Counter-examples do NOT flag
+c20fc5897e34675b999379d19feb7af2a89ce696	addenda.md:357	Кофе без сахара | без names a real removed ingredient |
+648b6d20d2bc2da0f455946744649c9fdbc3367b	addenda.md:358	Ноль vi-моков - без заглушек | без names a real removed thing |
+55db3f970caa4bd5a3fc140f8a6b4056f6638f4e	addenda.md:359	Сервис работает без интернета | без names a real capability |
+1cef8e751bd2b8ce5b9d6e097000d63b63e4008e	addenda.md:360	Строго говоря это аппроксимация | Epistemic qualifier carrying real information |
+fc445a577d6e66d2de21fcc308aeee69e58f94d9	addenda.md:361	Объясню коротко значение лежит в стеке | коротко previews concrete content that immediately follows AD-77 |
+3c9c296f24619f20aa7190721ae4c6233732f35f	addenda.md:362	Работает быстро ответ за 200 мс | A speed claim backed by a number not a self-virtue flourish |
+64cd61c30c731b884109d4f57279659d058cc030	addenda.md:364	Severity Low Secondary signal in the Ч - Clarity dimension supporting С - Structure Cannot trigger non-compensatory caps alone
+257a21cd06f5e696d7d59ae3edfc3f87ac50b2f8	addenda.md:366	Acknowledged identified from corpus analysis of AI-generated Russian prose 2026-06 the без vice self-virtue flourish recurs in machine drafts and reads as announced rather than demonstrated quality
+a245342ac29fa02334741340f37338b90fb5cc91	addenda.md:371	Assistant-register meta-commentary сервисные реплики ассистента
+56148e3a6316b525825fc50d836abd15e08835da	addenda.md:373	Problem a chatbot-persona flourish that addresses the reader as a live interlocutor or narrates the helping transaction instead of carrying the subject - a sycophantic acknowledgement of the question Отличный вопрос Прекрасная идея Вы абсолютно правы or an assistant sign-off offering further help Надеюсь это помогло Готов помочь Обращайтесь если что It breaks the fourth wall of written prose it talks about the helping exchange rather than delivering content A cousin of AD-7 - both perform a stance instead of demonstrating it - but distinct in that AD-7 praises the text's quality while AD-8 performs the assistant's service persona
+2eb56be3c2d93cdab0c52e677e3167dfddb30ac5	addenda.md:375	Sources
+5158540fdb67346a83dfadd8f9b645bef7f1ed78	addenda.md:376	Telling vs showing and respect for the reader's time editorial practice informed by Нора Галь Слово живое и мертвое
+c3e598cd6f99d6e565a97dbd62a5829dda3adc7c	addenda.md:377	Adjacent to AD-7 preemptive virtue and to business-writing email-closing norms
+a6c5c9d6b24e461218cc944f10a1243779805d28	addenda.md:378	Independently formulated from corpus analysis of AI-generated Russian prose
+266a15f9267f4f7b4d17accb048de1fff93995a0	addenda.md:380	Trigger constructions
+ee0bb980c9f46aeaa88a5bce844b4cb44a30f261	addenda.md:382	Отличный вопрос Прекрасный вопрос Хороший вопрос Прекрасная идея Вы абсолютно правы - a sycophantic acknowledgement of the reader as interlocutor
+e1faacb9f597c90d4f0a224ab593e75956099aa5	addenda.md:383	Надеюсь это помогло Надеюсь было полезно Готов помочь Обращайтесь если что Если будут вопросы - спрашивайте - an assistant sign-off offering further help
+f9bb4fbc68dc1bfadd6ae3ae8f4985d06826cb5b	addenda.md:384	Сейчас все объясню Давайте я расскажу narrating the helping process where no real internal cross-reference is meant
+bb11a8e3f8712e36e7cd9d1c615a4e3dbb03336a	addenda.md:386	Rules
+259b157ee52886259cd0256829058b4c900e9039	addenda.md:388	Flag a flourish that 1 addresses the reader as a conversational interlocutor or narrates the helping transaction and 2 carries zero subject content - deleting it loses no fact and the surrounding text stands whole
+02ff1cbaed852612d007d1baf052beb5dc799303	addenda.md:390	Rewrite by deleting the flourish open with the answer end on the last substantive point Отличный вопрос Давайте посмотрим… → start with the answer
+8a33dc511269799f497ce234aacc3ae18897beb3	addenda.md:392	Cross-reference not double-charge A genuine call to action with a real channel in correspondence - пишите на support… звоните в будни - is business-writing territory and an over-bloated email closing is already covered cf business-writingmd158 anti-patternsmd90 AD-8 targets the persona leak into article or documentation prose not a real email CTA charge a given fragment once
+d78448b35135e291f631af65bcc9a36e83062885	addenda.md:394	register carve-out Not flagged in genuine live dialogue chat-support exchanges or interview and quoted registers where the speaker is responding to a real interlocutor a support reply Спасибо за обращение Подскажите номер заказа or Хороший вопрос - ответил инженер is natural discourse cf AD-23 AD-75 A standalone Готов помочь in a real contact or footer block is a genuine offer not meta-commentary A sincere authorial wish in a book preface foreword or acknowledgements надеюсь книга окажется полезной is a conventional register not a chat-persona leak The target is the assistant persona injected into monologue or educational prose not a one-way FAQ that answers anticipated questions
+f25c9bb7642768ad89b2f6b1da8dac92b188b9de	addenda.md:396	Single-count with neighbours A sign-off that also reads as filler rhythm can be caught by AD-2 charge the empty-persona defect to AD-8 Ч - Clarity the staccato or filler defect to AD-2 С - Structure Never double-charge the same fragment
+eb01bf04c9a0e8a71c45816513df424f1c7ffedb	addenda.md:398	Examples
+4fef7a3d1f91d31fc5165dd5604d71dc084a309b	addenda.md:402	Отличный вопрос Давайте разберемся | delete open with the answer |
+5e534160ad217863db59689752aaada502e6fb11	addenda.md:403	Вы абсолютно правы и вот почему | Вот почему |
+8a0067a892915e351f0adbb65f6737048e81351f	addenda.md:404	Надеюсь это было полезно Обращайтесь | delete end on the last substantive point |
+6d25632ac6712229f5bac32d12dc2f758f8572ef	addenda.md:405	Готов помочь с любыми вопросами по теме | delete |
+4970a572d3191d4a9c99c256f1bd1f5ed2e90638	addenda.md:407	Counter-examples do NOT flag
+79eb585febdc0a3f79a19724a2687a1e4795bcb8	addenda.md:411	Спасибо за обращение Подскажите номер заказа | Real support dialogue with a live user |
+0d352ff8b2dfbf6d9ac1ef43333bc0708a97a673	addenda.md:412	Если остались вопросы по договору - пишите на supportexamplecom | Genuine CTA with a real channel cf business-writingmd158 |
+7e18312279731d51b60879381d890034e1acf0d3	addenda.md:413	Хороший вопрос - ответил инженер | Quoted dialogue interview register |
+741c450f9ac846bbcad8a00d67d089fb0ec0e3b1	addenda.md:414	Вы правы в расчете действительно ошибка | A genuine concession in real correspondence carrying a fact |
+28fc99af76d0b5f2fab4b2fd18802ec88cd2dc14	addenda.md:416	Severity Low Secondary signal in the Ч - Clarity dimension supporting С - Structure at lead and closer position Cannot trigger non-compensatory caps alone
+cd9ea3b0933eaeda3b7c4b1e857fc4ac6e255862	addenda.md:418	Acknowledged identified from corpus analysis of AI-generated Russian prose 2026-06 the assistant-persona flourish leaks the chat register into monologue text and reads as service performance rather than content
+727526ff1ef319ddf3f9ca5b9a4cdd7142dd5bbb	addenda.md:423	Hollow opener пустой зачин
+c27ead8b48a464e97e69b063b29595d339e42a3b	addenda.md:425	Problem an opening or transitional flourish that announces explanation instead of delivering it - давайте разберемся давайте погрузимся копнем глубже разложим по полочкам важно понимать что and итак used as filler The lead carries no fact it only clears the throat before the real first sentence It works against the inverted pyramid info-stylemd §D the main point goes first and the first sentence is the paragraph's thesis The strongest signal is density - a cluster of such openers one per paragraph padding a text that never quite begins
+2eb56be3c2d93cdab0c52e677e3167dfddb30ac5	addenda.md:427	Sources
+fd7fe1191db84a08859b2ecc5282b23e28482912	addenda.md:428	Main point first first sentence as thesis info-stylemd §D structure
+cbde1b1e7c0858e0e7584ba1ef6f9b6aee91bfe1	addenda.md:429	The throat-clearing openers стоит отметить что не секрет что are already catalogued as stop-words in info-stylemd §B see AD-93
+a6c5c9d6b24e461218cc944f10a1243779805d28	addenda.md:430	Independently formulated from corpus analysis of AI-generated Russian prose
+266a15f9267f4f7b4d17accb048de1fff93995a0	addenda.md:432	Trigger constructions
+15b8e023b79f7eaf71aac2ea316cb6b178a4f177	addenda.md:434	давайте разберемся давайте погрузимся копнем глубже разложим по полочкам - a narrated descent into the topic with no content
+81ab5d4e5c4ef2923f636bce39ecd94963df4de9	addenda.md:435	важно понимать что здесь важно понять нужно понимать - a hedged preamble before a claim
+c5090e709fb4661afa2adeb3ba6fe163d39b537c	addenda.md:436	итак как известно used as a paragraph opener that introduces nothing new
+c13a37563f8cc665093545d1bdeefe5fdee528b4	addenda.md:437	a lead whose only content is the promise to explain
+b330cddac72e5cfa5d6dbb2982102a39aed22a31	addenda.md:438	the strongest signal a cluster of two or more such openers within a short section 200 words
+bb11a8e3f8712e36e7cd9d1c615a4e3dbb03336a	addenda.md:440	Rules
+59554c94f029efaf418c8f5aae5bb5dda5d1cb92	addenda.md:442	Flag an opener or transition that 1 announces explanation rather than delivering it and 2 carries zero increment - deleting it loses no fact and the next sentence stands as the real lead A cluster of two or more hollow openers in a paragraph or short section is the primary signal an isolated instance is weak
+96132f52aec8fa4b03f4669f27ae91785c3a76a6	addenda.md:444	Rewrite by deleting the flourish and promoting the first substantive sentence to the lead info-stylemd §D
+880795778a6ef897aeeb702fed538cf46f1296f7	addenda.md:446	single-count with info-style §B The throat-clearing openers стоит отметить что следует подчеркнуть нельзя не отметить не секрет что в современном мире are already stop-words in info-stylemd §B - apply them there and count once AD-9 adds the dive-in family давайте разберемся погрузимся важно понимать not listed in §B plus the cluster signal Never charge one fragment to both §B and AD-9
+c96ee639225420385fb65ddae0d863be33a72605	addenda.md:448	carve-out - genuine connective Итак as a real summative connective that closes a reasoning chain or a resumptive connective that picks up a narrative thread cf editorial-punctuationmd119 is not flagged only the empty opener Итак that introduces nothing
+b256147545b265c8c5914db468a91289ac3c581b	addenda.md:450	carve-out - real tutorial Давайте разберем давайте посмотрим in a genuine step-by-step walkthrough where the next sentence actually begins with concrete steps is not flagged The target is the decorative promise with no follow-through
+bb0a70fa8a51f85cf8e9fd366e0446714df33dd5	addenda.md:452	carve-out - informative важно Важно понимать разницу между TCP и UDP - от нее зависит выбор протокола carries a real consequence and is not flagged analogous to AD-74 Flag only the empty hedge
+ce05cc530d1a52be79d2d07af75c8950710da54a	addenda.md:454	carve-out - dialogue register Давайте разберемся давайте посмотрим in genuine live dialogue or a quoted or interview register where a real interlocutor proposes to look into something together is natural speech not a hollow opener cf AD-75 AD-84
+eb01bf04c9a0e8a71c45816513df424f1c7ffedb	addenda.md:456	Examples
+6ec7cac1c57d07c8fc8ed917b3fbdd4a24113f74	addenda.md:460	Давайте разберемся как это работает | Алгоритм делает три вещи … |
+d7d387f382cabd779cee400f95dc60722d339053	addenda.md:461	В этой статье мы погрузимся в мир машинного обучения | Машинное обучение… open with the subject |
+3f6a34e158f1b701283febf69a0b5ef91608bf0b	addenda.md:462	Важно понимать что скорость зависит от железа | Скорость зависит от железа |
+2c948047d66928b1dc31de88a679dfa2a4831d61	addenda.md:463	Итак что же мы имеем | delete state what we have |
+4970a572d3191d4a9c99c256f1bd1f5ed2e90638	addenda.md:465	Counter-examples do NOT flag
+82323338aba29cb54e0032ed95525a80bffa1d79	addenda.md:469	Итак из трех замеров следует задержка не выше 200 мс | Genuine summative connective closing a chain cf editorial-punctuationmd119 |
+eb6a6ab47f34b7a819fe118fd95971f1ed5f704d	addenda.md:470	Давайте разберем по шагам Шаг 1 откройте файл | Real tutorial the next sentence delivers concrete steps |
+2f4cc1a036c7bb0914818e5185553bfc0e83eb5b	addenda.md:471	Важно понимать разницу между TCP и UDP - от нее зависит выбор протокола | The важно clause carries a real consequence cf AD-74 |
+8b2f910643c05a6ddc4c2445d1f0bf8245a02bf4	addenda.md:473	Severity Low Secondary signal in the С - Structure dimension supporting Ч - Clarity A cluster lowers Structure an isolated opener does not Cannot trigger non-compensatory caps alone
+fae85cb63766f32f033ecbc52375eab1eb58854b	addenda.md:475	Acknowledged identified from corpus analysis of AI-generated Russian prose 2026-06 the hollow opener announces explanation instead of leading with the point and clusters densely in machine drafts
+c25821b1b72df446670d9a1f5f8765f46555bc8d	anti-patterns.md:3	Catalog of common mistakes organized by severity Format wrong|correct
+3e72747b5ce0480306c1ff198740f2cf29bf6187	anti-patterns.md:18	Critical Typography 15 entries
+40162f20eb2b5d49ef4985cd90b8bde6b296ce6d	anti-patterns.md:20	Full typography rules see typographymdtypographymd Top 5 most frequent crimes
+81c2dd9c0dfb1c3c9f61f12463492de504835417	anti-patterns.md:23	кавычки straight|кавычки guillemets елочки
+002704353f1fa42da1a8fc0ecdf4f1a7dab4c906	anti-patterns.md:24	Дефис вместо тире Москва - столица|Москва -- столица em-dash
+10f19bec56fc90ed5ec82c569eb4ed7c65565a5b	anti-patterns.md:25	Три точки |Многоточие … U2026 single glyph
+f338a73ce93a7cb0ae70d4a1b93b8683a137e494	anti-patterns.md:26	Знак номера No или |№ знак номера
+44adfc463c879e8c1cb7ca90bd80b68ccbff2b1e	anti-patterns.md:27	CAPS LOCK ДЛЯ ВЫДЕЛЕНИЯ|Полужирный или курсив
+3eea938a081b5f2d4846a673a5f8aa735cb25688	anti-patterns.md:29	Remaining 10 nested quotes en-dash in ranges double dashes space before comma no space after period latin x vs multiplication sign inconsistent е double spaces c vs © minus vs em-dash in text All covered in typographymdtypographymd
+0e7564fead0d923ec293ae6dbbb6c17ccb902446	anti-patterns.md:31	Critical Канцелярит и номинализация 32 entries
+59457fa4c72185f094772ec1e8ecb0373d55f993	anti-patterns.md:33	Bureaucratic constructions and verb-hidden-inside-noun patterns Anti-bureaucratic tradition named by K Chukovsky and N Gal operationalized for modern webinfo-style by M Ilyakhov
+4b5a33a978dcdde31cf0ab44d6f7dd0b4e97fe7f	anti-patterns.md:35	Top 5 most frequent
+fabe4011e3d16a8812d4282667215e71f1ea8353	anti-patterns.md:38	Осуществлять деятельность|Работать
+b6e6e238e86ce238b88a7441d808ec1ca4cf9849	anti-patterns.md:39	Произвести оплату|Оплатить Заплатить
+c180e27a3fe9ccec8b1c8f8647db3a1a2baa23b9	anti-patterns.md:40	В настоящее время|Сейчас
+8b6fdf9ae9e7f829266d46ef4103fa5764ad84f9	anti-patterns.md:41	Принимать участие|Участвовать
+007400dd0411d84cdd3f47b81aa71fb67f6dadb4	anti-patterns.md:42	Нести ответственность|Отвечать за
+84432b9507613c43e9501c9c6a86dbe5baac4656	anti-patterns.md:44	Remaining 27 split-predicate verbnoun → verb plus officialese phrases full dead→live catalog in editorial-grammarmdeditorial-grammarmd §H2 the stop-word form of канцелярит is also in info-stylemdinfo-stylemd §B
+76f10d672647b7a2aeff1eb8629768dd68b0cdaa	anti-patterns.md:46	High Vague Adjectives 11 entries
+b4dd4c0e71e6dfcb6dccce073a5a4f33ddceb520	anti-patterns.md:48	Words that add volume but no information If removing changes nothing -- delete
+ae4fd610f8d4242a60111db027fb80a00f1cf972	anti-patterns.md:50	Vague|Fix
+e54bab5f41d847aec54e2d62c6bcd309d5ec9438	anti-patterns.md:51	Высококачественный продукт|Продукт конкретное свойство прочный быстрый
+c57720f7861bced8f91640bfc808af66b44a72e2	anti-patterns.md:52	Оптимальное решение|Решение которое конкретное преимущество
+2bcd992069b68f95d35278df870588e34def1e61	anti-patterns.md:53	Инновационный подход|Описание подхода
+0e2ca8a8a11da1a1dc9f457374eb3b995723c0a5	anti-patterns.md:54	Достаточно быстро|За 3 часа К вечеру
+05eb90469559db9239cd7006fb1ae74af592ae79	anti-patterns.md:55	Определенные трудности|Названные трудности
+59b96be35fdef46f7499f3cc7fffcf90a48fd3d3	anti-patterns.md:56	Соответствующие меры|Конкретные действия
+316847ad5793fa08651475f5d5b7909593644adc	anti-patterns.md:57	Данный вопрос|Этот вопрос or omit
+ebffbc692e37b018d0e2e13687481b8d274f7b43	anti-patterns.md:58	Ряд причин|Три причины 1 2 3
+9663457988a2c734cd7a2aba3fc4965b32350497	anti-patterns.md:59	Определенным образом|Описать как именно
+91ba238a2ecd34b9d9bc6e756ac271791f4e6131	anti-patterns.md:60	Весьма существенно|На 40 Вдвое
+8dffcaea07d643d1dd996640fa5225d7cb637889	anti-patterns.md:61	Комплексное решение|Решение которое охватывает что
+9510ebbfde1b7393c9383c41262cf4c926a6c10d	anti-patterns.md:63	High Passive Voice 10 entries
+87f4dbb6f31d20f9f7fd98a89fe0c58d7eb64573	anti-patterns.md:65	Passive hides the actor making text evasive and bureaucratic
+57031089253b39187dc53522a88a23dbb15988c5	anti-patterns.md:67	Passive|Active
+edc20c47ec9b1ab1d604dad8b92098e65e99ef6b	anti-patterns.md:68	Было принято решение|Мы решили Руководитель решил
+ea321a682b1f25b2ebe58043c17404d0d62ca1e5	anti-patterns.md:69	Отчет будет подготовлен|Ольга подготовит отчет
+fba53f4bdab1aa22bb2e3513e3f540d788a4bc1a	anti-patterns.md:70	Работа выполняется|Команда выполняет работу
+24bbedc5d7c868ff587ec843d5b45f8c91df2ab4	anti-patterns.md:71	Задача была поставлена|Иван поставил задачу
+f77c2b5c2604866ed9678afb6eb46c06124ba17b	anti-patterns.md:72	Ошибка была допущена|Мы допустили ошибку
+9a46e3c69df72f1238cdb06bcb6a231548231294	anti-patterns.md:73	Вопрос рассматривается|Анна рассматривает вопрос ответит до пятницы
+1ee6f153ed6e8e3a6bf60215872e1cd5998b249f	anti-patterns.md:74	Проект был завершен|Команда завершила проект
+8f2638dd35c181a0639ccaa3529c3f0c1b60783b	anti-patterns.md:75	Меры будут приняты|Кто сделает что до когда
+028a68831d0aac9b53bb0080e339bb85e98c791e	anti-patterns.md:76	Совещание проведено|Мы провели совещание
+950307097dafc9cd412aa58fabc4da8ae84d59f0	anti-patterns.md:77	Информация доведена до сведения|Мы сообщили команде
+08ecccbb79da1bc90aa5bd93407ccb516566c8fa	anti-patterns.md:79	High Sentence Bloat 15 entries
+a10249477f48f3afaf1627c1ff05a4f86ffd7781	anti-patterns.md:81	Sentences that could be half as long with no loss of meaning
+05531f0166ca5f45c0557b4e247c17d2da9e889a	anti-patterns.md:83	Bloated|Concise
+010ba9fc711db63b16ba125db545be2de524eb64	anti-patterns.md:84	В связи с тем что проект находится на завершающей стадии реализации|Проект почти завершен
+f26ea329475aa7b545a2d685e6fa0cb9eb87ce47	anti-patterns.md:85	На сегодняшний день не представляется возможным дать однозначный ответ|Пока не можем ответить точно
+3dee6e8bb09412abe168fa594b70ea1d62448eaa	anti-patterns.md:86	Мы хотели бы выразить надежду на то что|Надеемся
+5f19e4408fb713dd1210d7c57ed25f85c14ee1f5	anti-patterns.md:87	По результатам проведенного анализа установлено что|Анализ показал
+b2a9a9006b02d85cd56d4c5d0ff1ec0e960d8514	anti-patterns.md:88	Необходимо обратить особое внимание на тот факт что|Обратите внимание
+65a43daa0bfa54eb407d7e15dce837a086bb68a2	anti-patterns.md:89	Данная информация носит конфиденциальный характер|Информация конфиденциальная
+9ba71fd3724d4acf31158d3b8c05088b311116ed	anti-patterns.md:90	Если у вас возникнут дополнительные вопросы вы можете обратиться|Если есть вопросы -- пишите
+e579b517f63add9c86108ef2813f30ade2321ca0	anti-patterns.md:91	Мы придерживаемся мнения о том что|Считаем что
+6aa011c7796c6c032c60e503f2eb3edcef0d1573	anti-patterns.md:92	Является ключевым фактором определяющим|Определяет Главная причина
+abf99ed13f73776f520e3e4cb3b20adc3611090c	anti-patterns.md:93	В рамках проводимых мероприятий по улучшению|Чтобы улучшить
+b4dd7dd75bc63eaf893f9d1b65c352aa5c287117	anti-patterns.md:94	Следует отметить тот немаловажный факт что|Важно
+4980af8c8e53fa26f31ee66d27721caeb2f11563	anti-patterns.md:95	Исходя из совокупности имеющихся факторов|Учитывая что именно
+4b1cdf1119efcfaa2bd33ebb1b41c84e632a2a64	anti-patterns.md:96	На протяжении длительного периода времени|Долго С года по год
+2e93ae1bd10971311521c7802bbd82e1e82275ef	anti-patterns.md:97	Таким образом подводя итог всему вышесказанному|Итого
+fa78e2d5197801461f34b157b814cf0b1eb60c53	anti-patterns.md:98	По вопросу касающемуся|По поводу О
+d14112c6481d65c51cbccc262c83c50ab51859a0	anti-patterns.md:100	Medium False Intensifiers 11 entries
+105886f6eee0c81151e8286ced025695c565bdfc	anti-patterns.md:102	Words that claim to amplify but weaken because they substitute for evidence
+8e7f230b3fa8d4e47bfa6f848be7c3668625b3cb	anti-patterns.md:104	False Intensifier|Fix
+34d09c35f1bc4e77b459bafb2c50a68d68f19579	anti-patterns.md:105	Абсолютно уникальный|Уникальный or describe why
+6967d3a4f5959f9d069d3b01e18434c4e55fe11b	anti-patterns.md:106	Очень важно|Важно or explain why it matters
+b1d489d966b2c4594e948a7a9bd18f08e0f53e6d	anti-patterns.md:107	Крайне необходимо|Необходимо or state consequences
+865f329fe63e31c2559aad5bc7951ab0d205e011	anti-patterns.md:108	Максимально эффективно|Эффективно метрика
+456624e1295319b4ec312b96d116a78af41c8454	anti-patterns.md:109	Реально классный|Конкретное достоинство
+f6b7466cd15f67786b08b51a854ad7d8d7ab4768	anti-patterns.md:110	Совершенно очевидно|Вот данные
+4fed238126b1aa35d8b7eb2d082fcd9235461c13	anti-patterns.md:111	Буквально взорвал|Конкретный результат
+a8c8879681ca620980db95ea5bfdeaaf19ebf85c	anti-patterns.md:112	Невероятно быстрый|Обрабатывает 10K запросовсек
+5b225d8e1901498c1e691de4dca9d25c6bf747ab	anti-patterns.md:113	По-настоящему|Remove or replace with facts
+b9f1d84155e3802f1f156d1f4bc0ecd5740ab517	anti-patterns.md:114	Самый лучший|Лучший по критерий
+38584c394ff0b1b839d791872208c30e421c6b0e	anti-patterns.md:115	Довольно-таки неплохой|Хороший Достойный
+ea4f456f61ab22fbbaa4867e1e38e7dcc24b16aa	anti-patterns.md:117	Medium TautologyPleonasm 22 entries
+a5d075eb7c30676ae80c70b1f288eaf9116e49ec	anti-patterns.md:119	Tautology same meaning repeated масло масляное Pleonasm redundant word already contained in neighbor подняться вверх
+4b5a33a978dcdde31cf0ab44d6f7dd0b4e97fe7f	anti-patterns.md:121	Top 5 most frequent
+5c311aa7eadf1bcd64c999a94cb9308d9fb2b83f	anti-patterns.md:123	Redundant|Fix
+182e35793519b5bdbcafcecacb9960d581274a70	anti-patterns.md:124	Свободная вакансия|Вакансия
+e768d10c79a17b0031c3d660bd732df676d009ad	anti-patterns.md:125	Главный приоритет|Приоритет
+7fde1d85ca8b01688df2ec37582468619ed6a24f	anti-patterns.md:126	Подняться вверх спуститься вниз|Подняться спуститься
+50c34f388432e091ee6f16fe33dda2faf8ef8681	anti-patterns.md:127	Масло масляное|убрать повтор
+52969f80ca85b2065d10f0e8e678ac8f739329d7	anti-patterns.md:128	Спросить вопрос|Задать вопрос Спросить
+3d0eed9f687d5c72498cd1b3c1ad3da1464785dc	anti-patterns.md:130	Remaining 17 период времени передовой авангард краткое резюме совместное сотрудничество другая альтернатива ответная реакция etc full catalog in editorial-grammarmdeditorial-grammarmd §E1 pleonasms and §E2 cognate repeats
+9335a9082c0e59189878801011d6f71f17118169	anti-patterns.md:132	Low Anglicisms 11 entries
+42e0c0c2915e606d297936fc4e3aa34a014b81fc	anti-patterns.md:134	Use Russian when it carries the same meaning Some anglicisms have no precise equivalent -- those are fine
+1750ae7f6e6c29fea5ac35ee91c2ffd9ac37a48a	anti-patterns.md:136	Anglicism|Russian|When anglicism OK
+8b71e7a24c9e088d3324233a43cc0e16558a4343	anti-patterns.md:137	Дедлайн|Срок Крайний срок|IT context
+d495a746a8dcec1437d603b8c1379edbf9161a54	anti-patterns.md:138	Фидбэк|Обратная связь Отзыв|Non-IT audience
+3c58de947f3a3a8763019841160cfc5f459af75e	anti-patterns.md:139	Митинг|Встреча Совещание|General business
+4eb4e09b726c1e681bd7ab41ec9c58c00c681a6a	anti-patterns.md:140	Апрувить|Утвердить Согласовать|Any formal text
+a415ebf84c70e07827e9f0a222f8700eef42b076	anti-patterns.md:141	Кейс|Случай Пример Ситуация|Legalmarketing term
+ce9ecb3e5237b7d86b052d18828767f792361e47	anti-patterns.md:142	Ворк-шоп|Мастерская Практикум|General audience
+598743cb100673b5c60e29041364912d28321d36	anti-patterns.md:143	Тимлид|Руководитель группы|Formal HR documents
+e3b5da3211e890a93da45c77668c7ae6ce51c06a	anti-patterns.md:144	Коллаборация|Сотрудничество|General text
+422a0a6fd66a6044a81e90878e53204eccb12d3a	anti-patterns.md:145	Факап|Провал Ошибка|Any non-slang text
+e2beba2d354fb779ab38c89ad89a6f25b0701665	anti-patterns.md:146	Пушить задачу|Продвигать Настаивать|Non-slang context
+f03446aad24b1bdb189818dca363ec2ff4c82007	anti-patterns.md:147	Сетапить|Настраивать|Non-slang context
+be62e30ab5d3312ab3057a8a034dcf7f6d9b66bb	anti-patterns.md:149	Low Archaic 6 entries
+0e4870e2dbc5193e67c2e68392f51657d131c5d0	anti-patterns.md:151	Words that make text sound pre-revolutionary
+32302d7cf71327976942ceb7724e2d8eb61f913b	anti-patterns.md:153	Archaic|Modern
+c3b90ac7799312f9fb92c65f5baadc6a6022c196	anti-patterns.md:154	Сие|Это
+62e10a6f37cc2c2dc3de7ee28969f2c96ea8ebe3	anti-patterns.md:155	Оный|Тот Этот
+8f475f0484991376b78312d7334d13563cd6ce83	anti-patterns.md:156	Коим образом|Каким образом Как
+c0d07dbe4737ae355c0f8454733032e05f46e073	anti-patterns.md:157	Ибо|Потому что Так как
+d72ba5466b3a5af6a209217e465672b19b24a940	anti-patterns.md:158	Дабы|Чтобы
+a2779fc64827b3f80d68c1dc82f6d478deb38176	anti-patterns.md:159	Токмо|Только
+c3847500f81944c12b6641857e81b1918d05d6b4	anti-patterns.md:161	Low Overly Formal 5 entries
+c6237a2cd05c4b1cf34ab7ac3113b35f2865a7e5	anti-patterns.md:163	Official language where it creates distance and discomfort
+5b542a093bfd846148d207bda5f363bff2282042	anti-patterns.md:165	Formal|Appropriate
+b2a028982c0bd09b674fccefa115a0535fd33273	anti-patterns.md:166	Разрешите поинтересоваться|Подскажите пожалуйста
+5157c45ebe3b7a757499f943e28a09acc3245b67	anti-patterns.md:167	Прошу принять к сведению|Имейте в виду
+6f27171abe4097c17f518816c5678daac2099a97	anti-patterns.md:168	Выражаю благодарность|Спасибо
+b65be2656963220c4c0573cf64188ef5ba17065c	anti-patterns.md:169	Настоящим подтверждаю|Подтверждаю Да все верно
+bf73d1d4d9dc00cc15c48c55d2b1daab5d67616b	anti-patterns.md:170	Имею честь сообщить|Расскажу Хочу поделиться
+12b71c3e0fe5f7c0b8d17cc03186e281412da4a8	anti-patterns.md:172	Summary
+a9955ff2487de35a5c79d90ae005a6d6f0904d57	anti-patterns.md:174	Severity|Category|Entries
+09496c1f49e2695377989759524520698d314c23	anti-patterns.md:175	Critical|Typography|15
+51fd502b1cdcf5abeeae7c44eec6b6d54df60198	anti-patterns.md:176	Critical|Канцелярит и номинализация|32
+2a39646472562a86d882679606785fb47877cd79	anti-patterns.md:177	High|Vague adjectives|11
+875b2271865d51c220880a44ae1c44b1408b2a25	anti-patterns.md:178	High|Passive voice|10
+dfdff9c949e6fbe80d110df95ef98b209330c432	anti-patterns.md:179	High|Sentence bloat|15
+7af25f1b1073e6f1bd8fae2a2cfbb9d3ca6c0025	anti-patterns.md:180	Medium|False intensifiers|11
+772ebbecd36c86faa942b81146cac3d00ae099c8	anti-patterns.md:181	Medium|Tautologypleonasm|22
+4a10672e7c920043cc4730b48ef70e95e1729251	anti-patterns.md:182	Low|Anglicisms|11
+d5fdc1ea8fbefa6f2f070cdd93b0b5ebcf688e49	anti-patterns.md:183	Low|Archaic|6
+fa68bcc2f5bf61f2781df9a62b780a56aec9093d	anti-patterns.md:184	Low|Overly formal|5
+1e2e352c69b462e817dff6cfef902bc73f26c313	anti-patterns.md:185	Total||138
+86a19b94d6860738caf98acbc33f16fd566d8f72	business-writing.md:3	Principles of clear respectful and effective written communication in Russian --
+6d2107418e1f1c27854f3f422a2c4071fc027c18	business-writing.md:4	for email messengers and formal correspondence
+bf5f2ef8791d0a09e5fa652293b7b1d3b8203efa	business-writing.md:17	A Email Structure
+b09f3b0f20b9741fe8268b490bcaa0bc47994fea	business-writing.md:19	Subject Line
+cbfd7d41a94eca28522231b81456c183e7115f52	business-writing.md:21	Formula action type topic
+bb11a8e3f8712e36e7cd9d1c615a4e3dbb03336a	business-writing.md:23	Rules
+dfdb5a65e158f2a25ef02782949934795400ba70	business-writing.md:24	One email one topic Two unrelated things two emails
+117a2eaf8e65c221649bb0e879f02ff2de0f645c	business-writing.md:25	Subject names the action approve review respond FYI
+8f9288632c1faf83fb26234702e908e68f7c8f26	business-writing.md:26	Include project name or context if relevant
+1efa9c689be003536805314f94fcd0d85ee76262	business-writing.md:27	Never leave subject empty
+52553a95ea3d2ca95835f3c7327c502c57327182	business-writing.md:28	Update subject when conversation topic shifts
+d758f1bf019763f4e504d8eb76c0d5edbfb9c93b	business-writing.md:30	Bad|Good
+e71d0cdccd2f0d1723f6b2f85b69ec88ff59583b	business-writing.md:34	Вопрос|Согласовать Бюджет на Q3 |
+c4edf3b4b5c038799c2332210b40dd26fc4e392e	business-writing.md:35	Срочно|До 1503 Правки в договор с Альфа |
+8bca94560037a3039803a6cf6470066db151d5b9	business-writing.md:36	Привет|Ознакомиться Новый регламент командировок |
+e2f701b429a249c4e5fb6d92b7c2cd1cb3f44dfc	business-writing.md:37	Без темы|Ответить Дата встречи по проекту Орион |
+658dc840746efa223acf6cb0f6a8e8652d31d669	business-writing.md:38	Информация|К сведению Изменение графика работы офиса |
+6119e64ab1552f2cc4d30fb2276bc46ad6c8dd62	business-writing.md:39	Важно|Утвердить Макет лендинга до пятницы |
+9f2c10913ae1ab9ffa1e0a71e473a14b7b066ad3	business-writing.md:40	Документы|Проверить Акт сверки за февраль |
+d0bea0b167b9666b5946282db2e00dec8f49c11f	business-writing.md:41	Напоминание|Подписать до 2003 Допсоглашение к договору |
+75107424b15e3f33f0c7c63eb30b1c1b2b2d03f9	business-writing.md:42	Предложение|Обсудить Партнерство с LogiTech на 2026 |
+5389a8f8eccac7f35dea946e59a7ae6e03d4eba8	business-writing.md:43	Просьба|Выслать Отчет по трафику за март |
+928e8dece9e87ceac9570cc46085f596cc2af423	business-writing.md:44	re re re fw|Решить Выбор подрядчика финальное голосование |
+492702d91beec61b90f6c6c35e413f0910abdd6a	business-writing.md:45	Мысли|Дать обратную связь Прототип мобильного приложения |
+5a6ada7d409fa68b7fad5c4734237caed3de4917	business-writing.md:47	First Sentence
+1cee5e35a9ad7633d3aa5b0f952a3c32ca6445c7	business-writing.md:49	Pattern greeting short main point in sentence one No filler
+1f7b00a06e9d458d18a29ccf71ea99e88283dfce	business-writing.md:53	Добрый день Как ваши дела Хотел бы обсудить один момент|Добрый день Предлагаю перенести запуск на 20 марта -- нужна еще неделя на тестирование |
+af3ce1e4d7ed89a7337d10a1fe7ff7129a3599d7	business-writing.md:54	Здравствуйте Надеюсь у вас все хорошо Пишу по поводу проекта|Здравствуйте Проект задерживается на 5 дней Причина и план ниже |
+718a7e8a582e982e452dd5700addba4ffc1cf40d	business-writing.md:56	Body
+7d74daf2a15378c267c9c4c1a06fd3c1b4c819b8	business-writing.md:57	Use numberedbulleted lists for multiple items
+db7df6aeffb45b0756a61fc3456bc527a60019d3	business-writing.md:58	Bold key terms and deadlines
+6ddbbbddd2916c95e5c6235c296e0912ebe74ca4	business-writing.md:59	Paragraphs 3-4 sentences max
+f595e6a638b9ee6af8105b4cf6863973aedad9b9	business-writing.md:60	Attach files instead of pasting long content inline
+bbf6f2b53f428c5d8a0a63a1cf73ec5897bcb0f7	business-writing.md:61	Referencing previous correspondence -- include the relevant quote
+61ad8e33ea5cea9de1c78d04cd07a35e7313851d	business-writing.md:63	Closing Sentence
+a3513431dee79841f45620f8d47bd8039cf17410	business-writing.md:65	Last sentence answers who does what by when
+1750af11e4e16db84f7b6d437ff190997209dcf3	business-writing.md:69	Буду рад обсудить|Прошу согласовать макет до 1803 Правки -- до пятницы |
+015ea00428501b6ede774ef6b58c186c81173abf	business-writing.md:70	Жду вашего ответа|Ольга пришлите финальный текст до среды 19 марта |
+ade43a5350b710263f6c4ad85f9de41e5f003ec6	business-writing.md:71	Надеюсь на понимание|Если возражений нет до 1500 пятницы запускаем как есть |
+05ab7441990a593477b02d192a9a07e758f40216	business-writing.md:75	B Messenger Etiquette
+9664155e10aca06ab51bf4f074d00b9d241737bc	business-writing.md:77	One message greeting question context Never send Привет and wait The recipient opens chat and finds nothing actionable
+f4aa37649545efde2c538712a3da307673a25745	business-writing.md:78	No voice messages unless recipient explicitly agreed If you must -- add text summary of key points
+9e0db78c90e00b73c73e0feb2075782582588688	business-writing.md:79	Thread replies in group chats 5 No threads Prefix with topic логистика Отгрузка перенесена
+ad412d130e1d1ea45d37729f50dd95fae89f04dd	business-writing.md:80	Async by default No after 10 min silence Urgent call
+c4e5d90ce8c690433057ef90b27fb422fb04b931	business-writing.md:82	Channel Selection
+3fba7a19a5f4b9eabe2e1c4860c971a2eed8c180	business-writing.md:86	Email|Formal decisions documents audit trail|Urgent questions quick yesno |
+b96d5ab99c8135519a07626f495a82504bd4306e	business-writing.md:87	Messenger|Quick coordination clarifications informal updates|Long discussions signature approvals |
+aa52b5ed6fe1d38958acb6bcb81e9be66d5bac2f	business-writing.md:88	Call|Urgent blockers emotional topics complex negotiations|Things needing written record follow up with email |
+56376dabb622e3784f84647ba9d7bfb3adf0c06e	business-writing.md:89	Meeting|Brainstorming alignment 3 stakeholders|Status updates email decisions one person can make |
+5bcf8eb202adfea0ff50cbc730abd2791d58b7cf	business-writing.md:93	C Tone Management
+fc7457792b216126167ec5d45a76c400bad04b10	business-writing.md:95	Respectful Without Being Servile
+91593fd2228906cae8b56469eefe197bc2a589e2	business-writing.md:99	Не сочтите за дерзость но мне кажется возможно стоило бы|Предлагаю другой вариант |
+651d6b5cb339d35d50f90f954da91c24d28dce38	business-writing.md:100	Простите что отнимаю ваше драгоценное время|Есть вопрос по срокам -- займет пару минут |
+45bb492af1e7f49159585d8258bf4cc7a816aa31	business-writing.md:101	Осмелюсь предположить|Думаю причина в |
+dfb583d6e08b9dc224f534fddbeafa627d50a87b	business-writing.md:102	Если вас не затруднит и будет удобно|Пришлите пожалуйста отчет до пятницы |
+3d8dd2c13a0ef2e4873d6f19b0d34eb410f66bdd	business-writing.md:104	Direct Without Being Rude
+723fb1172d52209162b02a9d63c50d1e94f91b61	business-writing.md:108	Вы опять не сделали отчет|Отчет не получен Пришлите до 1700 пожалуйста |
+b2523d7019d1841da864fe8c220559947e3741aa	business-writing.md:109	Я же говорил|Обсуждали 10 марта ссылка Давайте вернемся к тому решению |
+e0a411f98e09ad6639aa9ec6af514313d2724070	business-writing.md:110	Это не моя проблема|Вопрос в зоне логистики Подключаю Олега |
+9ce29f6b19e2bc6aa8de716a9fb7c2b582400354	business-writing.md:111	Разберитесь уже наконец|Предлагаю разобрать на звонке сегодня в 1500 |
+bcf3282711b97a12ce038aaa067b50ea579b3c42	business-writing.md:113	Вы vs ты
+4922c73a0e63f69d9462a2bf0af1bfa7f78864a3	business-writing.md:117	First contact unknown person|Always вы |
+6a06ae937a37caa3eea87db308be265cfd888ebd	business-writing.md:118	Formal correspondence clients partners officials|Always вы |
+1bfc60904f53e951ed76825218ba63b00c6b0551	business-writing.md:119	Internal team ITstartup|Often ты by convention -- follow team norms |
+188431b9f774fd2a987610a82072b94e093befab	business-writing.md:120	Other person switched to ты|May reciprocate no obligation |
+5da050deb59085d958a785f6cb84033991180d6f	business-writing.md:121	Mass emails mixed audience|Always вы |
+2e3585eb1c79ce7965d53cc604d3136f04d50b2a	business-writing.md:122	When in doubt|Вы -- never offends |
+5cdc7863e83b7d41b34f12e466648c17746bd3e6	business-writing.md:124	Capitalized Вы additional formality official letters senior officials Lowercase вы normal business email
+c3aa44734f0911e6ae1c79869760ab907daabebd	business-writing.md:126	Softening Without Weakening
+de5f306c913f505065ae903619790f58d6b07d9f	business-writing.md:130	Вам необходимо прислать отчет|Пришлите пожалуйста отчет до пятницы |
+6b339b742f5c7629799c0da84fa5e49d58203b6c	business-writing.md:131	Вы должны это исправить|Предлагаю исправить до релиза -- вот что нужно |
+b63de9c556e79797ab8dae45e932e721b4ea02d4	business-writing.md:132	Я требую объяснений|Расскажите пожалуйста что произошло -- хочу разобраться |
+6d38ae100cd4534e41c315860e9c3abde7e78cb7	business-writing.md:133	Немедленно перезвоните|Позвоните когда будет возможность -- вопрос срочный |
+ec4dbc8fce964108fa9ab0e8d38abc483ec4c943	business-writing.md:134	Это нужно переделать|Есть несколько правок Основное конкретика |
+5129fd2415cc92d9633713b3bff93dbcbb89cf24	business-writing.md:138	D Clean Business Phrases
+4a99bb258a5d0af3848f559ac75616beaffa5661	business-writing.md:140	Replace bureaucratic filler with clear human language
+7e66b1ec026021a6ff77de3233dd53397da94f41	business-writing.md:144	Довожу до вашего сведения|Сообщаю Рассказываю|opening |
+72945cb7233be39774608840c71483bb59fe867a	business-writing.md:145	Настоящим уведомляем|Сообщаем|opening |
+9e3c01336c45b72636bd3a85cb36ffbed2b176af	business-writing.md:146	Данным письмом информируем|Пишу чтобы рассказать|opening |
+df4f81ca3e38ccb4aa16bb123aefa1db0c5563e6	business-writing.md:147	В рамках настоящего письма|В этом письме|opening |
+9a6e546570f9a99c5b1b8328575405c05489f855	business-writing.md:148	Обращаюсь к вам с просьбой|Прошу|opening |
+45ff02537da91794b8353f8b55981150f81ee315	business-writing.md:149	Хотелось бы поставить вас в известность|Хочу рассказать|opening |
+0ec359ea74705de794b75db8c3a585fec51a2ee1	business-writing.md:150	По существу вопроса сообщаю следующее|Отвечаю на ваш вопрос|opening |
+41740479c4a1ad54a5b4275e810dbc6df4576e52	business-writing.md:151	В связи с вышеизложенным|Поэтому|transition |
+a78db0dfe82e198da75ab5a5737bb3e6fb0b9179	business-writing.md:152	На основании вышесказанного|Итого|transition |
+86d138c3a8984f42398f1dfec6fec813dea5b35c	business-writing.md:153	Принимая во внимание тот факт что|Учитывая что Так как|transition |
+81511070fc37b39f86a04b1d02f0a75bc5989b92	business-writing.md:154	Исходя из имеющейся информации|По нашим данным|transition |
+20d860085dde57092f9f569728c40283f8337d91	business-writing.md:155	В целях обеспечения|Чтобы|transition |
+d34d743f93aa5a6e059516365a96a10b66125a7f	business-writing.md:156	В соответствии с достигнутыми договоренностями|Как мы договорились|transition |
+bffa72453a73c4d856ff1a5aa0a79edfdfeefcf1	business-writing.md:157	Ввиду сложившихся обстоятельств|Из-за конкретная причина|transition |
+0fa88eed0d8592be058657ea218dadaf788b4f20	business-writing.md:158	В случае возникновения вопросов|Если есть вопросы|transition |
+adc341dc438eb8f2e211e20ffccadcca06772a7b	business-writing.md:159	Просим вас рассмотреть возможность|Предлагаем|request |
+c35571f731a51e3b088ccd39009e664a840ee360	business-writing.md:160	Убедительно просим вас|Пожалуйста Прошу|request |
+a99dc9eacf9638260164859f67eb08419c87a44b	business-writing.md:161	Прошу вас обеспечить выполнение|Пожалуйста сделайте|request |
+efa716361291af3f656afa87cc063aa93514e6f8	business-writing.md:162	Ожидаем вашего содействия|Нужна ваша помощь|request |
+4553702d737d28af8d940ed3af31723f4f87d4cd	business-writing.md:163	Просим произвести оплату|Пожалуйста оплатите|request |
+51727126ada0fcc6e07d6f57a6ac7370d7cd9858	business-writing.md:164	Необходимо осуществить|Нужно сделать|request |
+74a2bacfb75938edf14a9343e0cba63f537c942c	business-writing.md:165	Просим подтвердить получение настоящего письма|Подтвердите что получили|request |
+ffe6afb04687288bc3d7822ef6764c02df52095e	business-writing.md:166	Просим предоставить информацию|Расскажите Пришлите данные|request |
+adbbe3208d0b2d3947e54c4a96ddbf58d3131301	business-writing.md:167	Считаем необходимым отметить|Обращаю внимание|emphasis |
+81593bb797eed1d2f632d81793895f67420afadf	business-writing.md:168	Не представляется возможным|Не получится Невозможно|refusal |
+d1cdf866bbeb7299437a63411d6a92ad39dbfe61	business-writing.md:169	Вынуждены отказать|Не сможем|refusal |
+da36fb63089a513c6b01dcf3fcf343eff7f8ea0b	business-writing.md:170	Не имеем возможности|Не можем|refusal |
+8416f3dc3c0a97516b07263ddd02c15312423a21	business-writing.md:171	К сожалению вынуждены констатировать|К сожалению|refusal |
+7f2456a84f1fe4b8ef64d0daf5ffddf8ec252c5a	business-writing.md:172	Данный вопрос находится на рассмотрении|Решение еще не принято Думаем|status |
+d4257cae6bd0b11d6a258421c34bd0c4bffa483f	business-writing.md:173	Работа ведется в штатном режиме|Все идет по плану|status |
+c1e4585b72aaaed49bb13392d77d6bcec5cb6efd	business-writing.md:174	На данный момент времени|Сейчас|time |
+605757f6660e5185852fcd6ff30d4a0cae456660	business-writing.md:175	В ближайшее время|До конкретная дата|time |
+966ab7a16b149898eda1cf45eda8854ffaae9ac3	business-writing.md:176	В кратчайшие сроки|До дата Завтра К пятнице|time |
+29400c23374163a4f7022ef93ef3e56f5047b438	business-writing.md:177	По истечении установленного срока|После дедлайна После дата|time |
+b42c803b80c36dd101aed9e537f98862b19d6bde	business-writing.md:178	Вышеупомянутый нижеперечисленный|Этот Вот они|reference |
+d684d7939c5559b8e041200c68190f26a7a1e5a7	business-writing.md:179	Вышеуказанные рекомендации|Эти рекомендации|reference |
+017e269559e83c112a58f9451820969d1045b763	business-writing.md:180	С уважением и надеждой на дальнейшее плодотворное сотрудничество|С уважением имя|closing |
+994bc7c4ba3124d3228583b7d547969e18d6607e	business-writing.md:181	Заранее благодарим за оперативный ответ|Буду благодарен за ответ до дата|closing |
+7a32efdcd96feac33811a533d16f83d22b532c0a	business-writing.md:182	Надеемся на положительное решение вопроса|Надеемся что получится|closing |
+832532a04e95ad28e85b4f48aa560da3331a14a8	business-writing.md:183	Остаемся в ожидании вашего ответа|Жду ответа до дата|closing |
+3abadae54da954e6e2e900b27ca26557b707f223	business-writing.md:184	Выражаем надежду на взаимовыгодное сотрудничество|Будем рады работать вместе|closing |
+e994bdf95a580d8b2dc0b3ef1cca20866966005b	business-writing.md:188	E Meeting Notes Structure
+3ec1ae061c27325c7ecb543adf91235e22cbc9ed	business-writing.md:190	Template
+3d120204fae2af250096861dc218f8fd32e005f6	business-writing.md:194	Date date time
+f15ceb0398ba643b88a1bf5f52e7d0b348ead1c6	business-writing.md:195	Participants names
+af2f32cc9200c51fc9691ec8696610a75f220376	business-writing.md:197	Decisions
+ab7c6379fe430f9d9a2fcd73c55653918880111c	business-writing.md:198	Decision -- rationale if not obvious
+1363e6593c6d58b63d976fd1607b3a26c84046e1	business-writing.md:200	Action Items
+ee9f64dcc71e1a8fab2c7e4ccf4629080dd8d83a	business-writing.md:201	| Task | Owner | Deadline |
+1ac3b0cd4ddc0ae29d43adffd988cfc39bcf1939	business-writing.md:203	| Task | Name | Date |
+43e55ec8a314e42c9bef02e6fd14c2ff9737519e	business-writing.md:205	Open Questions
+4b7bb0509afa1d2d84c95fa4ac847d7b53e8661a	business-writing.md:206	Question -- who investigates by when
+df0eb466bb6aab18ad81b25eec729db846181cbb	business-writing.md:208	Next Meeting
+84089d6ffc728e6b02c960d3ed31908dd9d07925	business-writing.md:209	Date time agenda if known
+bb11a8e3f8712e36e7cd9d1c615a4e3dbb03336a	business-writing.md:212	Rules
+eccc2dd0113cde063fd9587b3962efeabc62c42c	business-writing.md:213	Decisions as statements not discussion summaries Decided to postpone to April 5 -- not We discussed and considered options
+3eb48f77f420a973c399f088e2c3566e6d107d97	business-writing.md:214	Every action item exactly one owner one deadline The team is not an owner
+feee49695bdcb4728577d8d3ede3dd39b6615a29	business-writing.md:215	No decision Write No decision Name will prepare data by date
+8e96476a776c2b8dfd139100fd0367e869c0e1b4	business-writing.md:219	F Saying No Respectfully
+044914709f8e85eb71c726849fb590ec58613e9b	business-writing.md:221	Structure acknowledge -- decide -- offer alternative
+0f7e484a7305ce26a1711d340376c2643b246d86	business-writing.md:223	Acknowledge the request show you understood
+f0b38a3655b53caaff8fc3e84313aaca13e15d71	business-writing.md:224	State decision clearly and early don't bury no in paragraph 3
+0d235fd1970cd83a43183cee1dcbb909f5c93560	business-writing.md:225	Brief reason one sentence not a defensive essay
+34cfca4729a6cb635d369b8f4410002b655f7be4	business-writing.md:226	Alternative if possible
+4a3f21e24d6cb144fcaed98b65ef83e3c4e654ef	business-writing.md:227	Constructive ending
+1ca5bd885239938f88235c499ed7b1af3f1e3000	business-writing.md:229	Best Examples
+847bc8ee60bbe4bd86bcd807ce6ab946f33dff2e	business-writing.md:231	Declining a meeting
+c63c8d61d0b4dbccf0178228569b4fc1d8afc3e3	business-writing.md:232	Не смогу быть 15 марта -- финализирую отчет Готов ответить письменно заранее Пришлите повестку
+1acffe15b1342b318b6b9c2f2720fb1077669198	business-writing.md:234	Rejecting a proposal
+2e552ea5accd2da27e5d011e4d719179ae5d8343	business-writing.md:235	Спасибо за предложение Не подходит по бюджету -- лимит распределен Вернемся в июне при планировании Q3
+1f62c4b80523f3a97032cc5319d9a94c294a9b3c	business-writing.md:237	Denying a deadline extension
+a67e7caf0a1e31443a683a20713370f030ae6eb9	business-writing.md:238	Понимаю задача сложнее Перенести дедлайн не получится -- зависит запуск Давайте упростим скоуп
+16bd0d9b10542afdecc59958995c2942f1886384	editorial-grammar.md:12	C Capitalization
+0d93eb79eac948b85c9adfd979d765de69437f7f	editorial-grammar.md:14	C1 After colon
+54c1e7916fadbb0c73317d96de7077767af96281	editorial-grammar.md:16	situation|upperlower|example
+782437d715838a934f31d3da409f4069f9a66f86	editorial-grammar.md:17	enumeration after generalizing word|lower|Привезли молоток пилу рубанок
+d1d51f6efc04d00e28b7c6fb4b24740ae063ae01	editorial-grammar.md:18	direct speech|upper|Он ответил Согласен
+01f23b453c79a0e981b17573d43bed0bff3d45c3	editorial-grammar.md:19	two independent sentences journalistic|upper allowed|Итог очевиден Команда проиграла
+7f0cb0194aa4585bcf02fb91b3509a38b0dc34db	editorial-grammar.md:20	list item after digit with period 1|upper|1 Подготовить документы
+1b8e0beca98d60e24eff2b3c16e8b69a0366ab08	editorial-grammar.md:21	list item after digitletter with bracket 1 а|lower|а подготовить документы
+e45dc117db40081ba4b3bc147e6411de9f7a0d51	editorial-grammar.md:23	C2 Headings
+74d2f95113857db7cb6051f300fcfab268263b42	editorial-grammar.md:25	Russian does NOT use Title Case Only first word and proper nouns are capitalized
+3cfbddc8ad1f9d40f4788e0c34bf76366486de08	editorial-grammar.md:26	Correct Краткий курс теоретической механики
+c4112bc6e5be44aa26de2c1860a40bd5991d9931	editorial-grammar.md:27	Wrong Краткий Курс Теоретической Механики
+b3e71245105e156e4b2bf687e68243cb2d3b121e	editorial-grammar.md:29	C3 Job titles and ranks
+03591b1318347b23f92798c795222b7b1a23d353	editorial-grammar.md:31	context|upperlower|example
+17825fcf27f59281b15115e5657b9a2c30dce66f	editorial-grammar.md:32	running text general use|lower|президент компании генеральный директор
+e30c507cd80f0fb7fa643ef29e806011d92072d6	editorial-grammar.md:33	official document decree order|upper|Президент Российской Федерации
+a30bff34b4469303347cb5082b7ad4d47abb83de	editorial-grammar.md:34	supreme state positions in official docs|upper|Председатель Правительства
+ec9295f39286fb0989b726488a22882e17d63077	editorial-grammar.md:35	academic degrees titles|always lower|доктор наук профессор академик
+674a25a98814d10cb6896a97f4a98a94d0ca8351	editorial-grammar.md:37	C4 Geographic names
+63499b9bacaf356f37c21511ea78a394bed0cfea	editorial-grammar.md:39	All words in official name capitalized Великий Новгород Нижний Тагил
+84509dae7ce6fbe55cb2240235c5a1a123ddc84e	editorial-grammar.md:40	Generic term lowercase unless part of name город Москва озеро Байкал but Белое море
+9f85505e311410d4dd27967fc6291f7d6a2fd188	editorial-grammar.md:41	Foreign function words articles prepositions lowercase Рио-де-Жанейро Франкфурт-на-Майне
+38220620b809c64039976b47f46c89f263c4da1f	editorial-grammar.md:43	C5 After ellipsis
+123bc18f797ade21942f54b059df33394b6059ce	editorial-grammar.md:45	situation|upperlower
+cbed7edce32a03825187b9d19e9c5dcf76b1bb90	editorial-grammar.md:46	ellipsis ends sentence|upper new sentence Все кончилось… Наступила тишина
+6969bbf2c102d109800951e05cef909c9f53bd9b	editorial-grammar.md:47	ellipsis pause inside sentence|lower Он вошел… и остановился
+03162abe60e829dd250c76d48d0b14109b487c83	editorial-grammar.md:48	ellipsis at text start continuation|lower …и тогда все стало ясно
+1b5efb8810cf8751eb2420bf9aee22b34f372847	editorial-grammar.md:50	C6 Quotation marks and names
+93d000c0930bc82bb1ca447a1e910b2d9add6fef	editorial-grammar.md:52	First word inside quotation marks capitalized роман Война и мир
+a611a8de6529a4c1035e95382cd4cdb634c24034	editorial-grammar.md:53	Other words follow general rules lowercase unless proper noun
+b87b7fb05cb9d90282b65979e40c361c2f5f301f	editorial-grammar.md:54	Organizations ООО Ромашка ПАО Газпром
+9f3ee26fd98316cd1874770bb95a08937db9e6d6	editorial-grammar.md:58	D Agreement syntactic concord
+6e24c54d139a0fbe35605b8433cd4fce0003cc51	editorial-grammar.md:60	D1 Collective nouns as subject
+bc2de67a7cd77ad62ce44b661fec7b51a01e06eb	editorial-grammar.md:62	Words ряд большинство меньшинство часть множество несколько allow singular or plural predicate
+f276620c9947d9d871eaefa7088e9b1748373137	editorial-grammar.md:64	Singular predicate grammatical agreement
+9028d11c5c58cd3fc1f6f7791edd5fac6aa20e52	editorial-grammar.md:66	condition|example
+6467dd04035b075b85a6ebdc6d42fc4606ee3a85	editorial-grammar.md:67	no dependent word|Большинство согласилось
+5c2283092bac28378c3ce21144e87ea4b104331c	editorial-grammar.md:68	dependent word in singular|Ряд предложений был отклонен
+ae5ded97af83ca6179b403efb8a049e714484397	editorial-grammar.md:69	subject inanimate|Большинство зданий было построено
+6e02825dfde9a373b0c6c730b2c0f13610831ae9	editorial-grammar.md:70	predicate passive participle|Часть документов была утрачена
+d531d2e3ceec511fe828bfc88d7b0586a07877e5	editorial-grammar.md:71	predicate before subject|Пришло несколько человек
+3ee7bf93edc238c005c16c94f3abc188fcdec614	editorial-grammar.md:73	Plural predicate semantic agreement
+9028d11c5c58cd3fc1f6f7791edd5fac6aa20e52	editorial-grammar.md:75	condition|example
+fbf4c87a78efb422b02f7ae692237eb5bc8144f4	editorial-grammar.md:76	animate subject separate actions emphasized|Большинство студентов сдали экзамен
+a070ae7f36ae78e0dca792b269be0880df5957fe	editorial-grammar.md:77	distance between subject and predicate|Ряд сотрудников работающих в отделе подали заявления
+dac2065d5b019a0ae3b614fe86cea3ce207cd107	editorial-grammar.md:78	homogeneous predicates|Большинство вышли и присоединились
+ae628fea58965d52e70e44c52a9d9ef322ca316e	editorial-grammar.md:79	participial phrase subordinate in plural|Часть студентов которые не сдали были отчислены
+2bcc8c9cbe95cc1626be6c1397b4e00122665256	editorial-grammar.md:80	enumeration at subject|Большинство -- инженеры врачи учителя -- проголосовали
+995efdd0e446d824fe36af132ed3473ea6354f5a	editorial-grammar.md:82	D2 Numerals noun
+ef3cddfb9ce3686ff8dc2b3c470b00fa984189b9	editorial-grammar.md:84	numeral|noun case|example
+6c556b5eee69699e1ef1ee96fdf412867e052f06	editorial-grammar.md:85	21 31 101|nom sg|двадцать один студент
+673c71fbe42df96e12dd1bd544c8af69f46fd115	editorial-grammar.md:86	2 3 4 22 33 44|gen sg|двадцать два студента
+a9cc89c16b606a0767c996db3fda255782319acb	editorial-grammar.md:87	5-20 25-30 etc|gen pl|пять студентов
+bdf6a17f1add5ae9ae580673ec2377234356a8e8	editorial-grammar.md:88	fractions|gen sg|две трети территории
+152c31c70b08860e1f8979de1c19506f2d7614e8	editorial-grammar.md:89	полтораполторы|gen sg|полтора часа полторы минуты
+9e7c78246d15efa2eb9d48ed6efa1f8f23fc5846	editorial-grammar.md:91	Predicate number with numeral subject
+7a71f9c5cc9dab3db803c4a2172307ff7b9716fa	editorial-grammar.md:92	Singular inanimate emphasis on totality Прошло пять лет
+35f500a4c390408d6923926d2950aa76c8088076	editorial-grammar.md:93	Plural animate separate actions Пять студентов сдали экзамен
+f05b44c864e34f84c301035f0e4f52e702352bd8	editorial-grammar.md:95	D3 Compound subjects
+c8c3d975c451cfd2c352a1c6ea4715d58deecbc2	editorial-grammar.md:97	connector|rule|example
+09a5ab29e62c6b2c3082478d405475c3a5f2ac6b	editorial-grammar.md:98	и both animate|plural|Мать и дочь пришли
+0b49152e7b38beeda19c0a6cf9d4ddf043ab80c4	editorial-grammar.md:99	или либо|by nearest subject|Поездка или путешествие состоится
+88a04ac16e95990b2c5cd54344fb517ec2ccd728	editorial-grammar.md:100	ни ни|plural usually|Ни дождь ни ветер не помешали
+231ca3cc382f60e9e09bca1ea249fa5d31ef654b	editorial-grammar.md:101	не только но и|by nearest to predicate|Не только студенты но и преподаватель присутствовал
+8966e54d4d691cf5f977c5771aa737249ada41ae	editorial-grammar.md:102	как так и|plural|Как дети так и взрослые участвовали
+d681cad2bbc7d00bf544bb53db53392dc8408856	editorial-grammar.md:104	D4 Mixed gender
+df1d23fa1a6a70174250214b9f465f42109c9f91	editorial-grammar.md:106	Subjects of different gender joined by и - plural predicate Стол и лампа стояли
+c0d4d34cf621f63773ef26b8e40a923fbaec8bc3	editorial-grammar.md:107	With inversion singular by nearest is allowed У окна стояла лампа и стол
+6cc419d85bd682690d6c6f2f533e227655df4ab9	editorial-grammar.md:111	E Tautology and pleonasms
+4ea40aaa6333c6904932fd118b114fbddfebb9b5	editorial-grammar.md:113	Pleonasm words duplicating each other's meaning Tautology adjacent cognate words
+6f1f09feb99578b79f03e10a179447ae871453ee	editorial-grammar.md:115	E1 Pleonasms
+e502bab2d02047d6a5c4ec6fb31aff4c3b760b70	editorial-grammar.md:117	wrong|correct|why
+78835ef3351c0d779defe53782ae9d2aba3f8964	editorial-grammar.md:118	свободная вакансия|вакансия|вакансия free position
+532126a17163ddf457a78a469a324a981409cc6a	editorial-grammar.md:119	прейскурант цен|прейскурант|прейскурант price list
+f75f99d3ab9c3880774534ebf363dad816356902	editorial-grammar.md:120	памятный сувенир|сувенир|сувенир keepsake
+f54e424f801998d7515f01b7c2c33593b145083a	editorial-grammar.md:121	совместное сотрудничество|сотрудничество|со- together
+6422f841f72fe1c82635cd57f89eb0d941f2a85e	editorial-grammar.md:122	полный аншлаг|аншлаг|аншлаг sold out
+6870de6f253ece2a759206668a3a37f5ab5ed343	editorial-grammar.md:123	временная отсрочка|отсрочка|отсрочка time delay
+6dca55f89409bf5dab45007255f29651607ddd6a	editorial-grammar.md:124	ведущий лидер|лидер|лидер leader
+acf39d284aeddf2edb9fd5eef0098a28d4b6c470	editorial-grammar.md:125	впервые познакомиться|познакомиться|always first time
+ca7b6c0592c9eed3bdab6e15573d7083bb216fbc	editorial-grammar.md:126	главный приоритет|приоритет|приоритет top thing
+18e3c0fc579ddecd823cbb73341dda569882d29a	editorial-grammar.md:127	демобилизоваться из армии|демобилизоваться|only army
+453f32a2be5171d77ca31edf4653a997622160a8	editorial-grammar.md:128	жестикулировать руками|жестикулировать|hands by definition
+41ed8cf0b966b8f6686d02f9bb88dea54b8ad875	editorial-grammar.md:129	импортировать из-за рубежа|импортировать|импорт from abroad
+e0378a6abebe22993dd05d92aa92c62bee353cb7	editorial-grammar.md:130	коллега по работе|коллега|коллега workmate
+1bf593cb335923a9b11a1d61d066ad5db2dbe24f	editorial-grammar.md:131	народный фольклор|фольклор|фольклор folk art
+80455a5e7ab8c1c0ebe5d51f0c997ba778889aeb	editorial-grammar.md:132	перспективы на будущее|перспективы|перспектива future view
+f5e734cc59de5f19bff553e360ca3d332e8d966d	editorial-grammar.md:133	подняться вверх|подняться|подняться go up
+8ace5e578bc5c1a8b1f83ccc45c4ca644884ae2b	editorial-grammar.md:134	предварительное планирование|планирование|always preliminary
+9c5bd94d77aae3ae8669d142bfbc9418e7a45df6	editorial-grammar.md:135	самый оптимальный|оптимальный|superlative built-in
+f8aea032c91fb3158a7891d317c4fd483b284b53	editorial-grammar.md:136	автобиография жизни|автобиография|автобио own life
+e8f5789c973d26d2050e1c2432af58786446c13a	editorial-grammar.md:137	взаимное сотрудничество|сотрудничество|со- mutually
+143c51b220b91dec0a4643c1323608e9b2b1d76e	editorial-grammar.md:138	возвратиться обратно|возвратиться|воз- back
+6df40418f39a7cd2e010b8bc78bd0a0917bc0d45	editorial-grammar.md:139	главная суть|суть|суть the main point
+c3f09199769174b7b25d760c723d5845e940e187	editorial-grammar.md:140	депиляция волос|депиляция|депиляция hair removal
+fa1c4da6cd9eafe3aa5fb02c9d2059d544f27866	editorial-grammar.md:141	другая альтернатива|альтернатива|альтернатива other option
+98fa2c6ec5373ce9bab4ef3963c2bf0351dbd959	editorial-grammar.md:142	дублировать дважды|дублировать|дубль double
+dd014354dc3e4bdd92379f926b9dd62ea684bbe8	editorial-grammar.md:143	единогласный консенсус|консенсус|консенсус full accord
+42e5f1a2d91786e95649fed616712b465bcae170	editorial-grammar.md:144	заранее предупредить|предупредить|пред- beforehand
+4cbb3edef5db812c83ef18435269fc15b97dd797	editorial-grammar.md:145	каждая деталь важна и существенна|каждая деталь важна|synonyms
+ef3ccf6217f5eb129e2b076f3cd3dfe3218815c5	editorial-grammar.md:146	краткое резюме|резюме|резюме brief summary
+523813a3faf48ea36a6b593ad90a02f9ef1427c0	editorial-grammar.md:147	лично я|я|я always personal
+684e7af3caefaf74a1817f13076e8027b7d5bce7	editorial-grammar.md:148	местный абориген|абориген|абориген local
+e52d0e4e92698d1b73ca583a19da64d7c3a76567	editorial-grammar.md:149	молодой юноша|юноша|юноша young man
+99ba1b3f7cd941c5f7dfa8eb2fb9c2dafdad3646	editorial-grammar.md:150	наиболее оптимальный|оптимальный|superlative built-in
+f8bdfc14b563cfbb07e0cfee7fcbc0617a546aca	editorial-grammar.md:151	начальные азы|азы|азы the very basics
+e0cfa4ef6f0de50995f64667240a86ce15431665	editorial-grammar.md:152	неожиданный сюрприз|сюрприз|сюрприз surprise
+351e1db0508dc03d88b6db0296d044d7e983b74d	editorial-grammar.md:153	ностальгия по родине|ностальгия|ностальгия homesickness
+d6073b8cbfdc0052c69a17d183a0ff9d55b90f8d	editorial-grammar.md:154	огромная махина|махина|махина huge thing
+5de6d629f95f9733ea8c49be65a3fe0cce7b58d7	editorial-grammar.md:155	первый дебют|дебют|дебют first show
+8187377c299b4e7c99dc79428549665656385581	editorial-grammar.md:156	передовой авангард|авангард|авангард vanguard
+e1033f136cca6551086ef6406712fd130e2b4b89	editorial-grammar.md:157	период времени|период|период time span
+1b4fdc43f7723fab56a37d3bd6409f60cd19c645	editorial-grammar.md:158	полное фиаско|фиаско|фиаско total failure
+2e87b55a6451c7df8a1e41c064e7ff2eb0c05f6d	editorial-grammar.md:159	предварительный анонс|анонс|анонс advance notice
+4c9df4d8414100d99f8625c6e82ee99df474f170	editorial-grammar.md:160	прогнозировать на будущее|прогнозировать|forecast future
+cf576959f01eae6634cd0f17670f19cc9c06b916	editorial-grammar.md:161	саммит на высшем уровне|саммит|саммит top-level meeting
+3145bd0f7655a5a7efb370549d89c4e89992d1d1	editorial-grammar.md:162	своя автобиография|автобиография|авто- own
+5b5f8f6f963db8bc6af721a3e34a63bd15f2977d	editorial-grammar.md:163	смешивать вместе|смешивать|mixing combining
+0aa0fa3499f01f5e6722440e2d7aed8cd9272f0a	editorial-grammar.md:164	спуститься вниз|спуститься|спуститься go down
+10b1684241472c47dc3c2c48a542804ad429fd12	editorial-grammar.md:165	страсть к графомании|графомания|мания obsession
+ac534c66490300ed384b049dcd968febdd97af90	editorial-grammar.md:166	хронометраж времени|хронометраж|хроно- time
+54e41178f9775ae5ee45ba1c523b4adf7dd29029	editorial-grammar.md:167	экспонат выставки|экспонат|экспонат exhibited item
+2d3a7287a622853c671a529adac15e784b669001	editorial-grammar.md:168	в январе месяце|в январе|январь month
+32c95848d109328f4815f3989c1a53976a90f1df	editorial-grammar.md:169	полностью завершить|завершить|завершить bring fully to an end
+277fc4386cf41e48e6d0f06c102887f4005c6e11	editorial-grammar.md:170	внутренний интерьер|интерьер|интерьер inside space
+b525618d2e2bfda82770736e71848e803875624e	editorial-grammar.md:171	ответная реакция|реакция|реакция response
+1901cd0682047801734b4e3aa073b7d3400f29d9	editorial-grammar.md:173	E2 Tautology cognate repeats
+0df862e9b6eb565f2ece2ed6a4d68cd28a838dee	editorial-grammar.md:176	спросить вопрос|задать вопрос
+9644517aada4d77f4facb1af675ccc0dca527d98	editorial-grammar.md:177	организовать организацию|создать организацию
+621f926dc39605a69898954cf274dc03f82976d2	editorial-grammar.md:178	следует учитывать следующие факторы|нужно учитывать такие факторы
+f016b2666598ab06909c24abee90546e29b89855	editorial-grammar.md:179	проливной ливень|сильный ливень проливной дождь
+8c499624244c326580a7d1526a3233370fdbfdd8	editorial-grammar.md:180	сгруппировать в группы|объединить в группы
+481c52e37b2786fc709d885860ef4689f3147029	editorial-grammar.md:181	проектировать проект|разрабатывать проект
+05b752dc75f4ebba87d037b3ade35408e6ab7f2c	editorial-grammar.md:182	адресовать адресату|направить адресату
+65700b94115a617875b1ff0115997ec958abe9da	editorial-grammar.md:186	F List homogeneity
+6dcc61c580dee419cb043a7f5531a820702e468e	editorial-grammar.md:188	F1 Grammatical parallelism
+78267d589d9df8c5de5f5a5bcf6c5305086e9a5f	editorial-grammar.md:190	All list items must agree with the introductory phrase and share the same grammatical form
+7b0d310d22be4f5365bc9ed7a855733399a0832b	editorial-grammar.md:191	Do not mix verbal nouns infinitives plain nouns in one list
+38904a67ff32cdec3df21dc940624ba9faaed4b7	editorial-grammar.md:193	F2 Level-of-detail homogeneity
+8b6b467fa6703c223a08cc9a3d2f58ed08b93f11	editorial-grammar.md:195	Items must be at the same level of abstraction Do not mix Python JavaScript databases VS Code
+19ba6dcc52678448f766babb16e12c87d8e1023c	editorial-grammar.md:197	F3 Do not mix questions and statements
+66324ea945be5d6b95e555538724bd0f0ffc97f2	editorial-grammar.md:199	All items in one modality all statements or all questions
+88d23f4b97fdd7282db4fe803e53771e03e5ed55	editorial-grammar.md:201	F4 List punctuation
+a5ba11a791908b3fa7be62cdb491e2e29902d79b	editorial-grammar.md:203	start|case|ending|example
+9bfaca6a5e468d12fd2e70030f5033916a81167d	editorial-grammar.md:204	after digit with period 1|upper|period|1 Подготовить документацию
+eb390e25a40fb378aabd595a2875ffaabf87538c	editorial-grammar.md:205	after digitletter with bracket 1 а|lower|semicolon last period|1 подготовить документацию
+117aa19627c5ab49ff6621ea160e9b2de3b41a74	editorial-grammar.md:206	after bulletdash|lower|semicolon last period|-- подготовить документацию
+4989acf522cf13410fb02b4903ae9e538c62ca29	editorial-grammar.md:207	item full sentence|upper|period|-- Необходимо подготовить документацию
+0b5a119e27d6f0922ec2a354876b3fd53275bf55	editorial-grammar.md:209	Period rule period only if item is a full sentence has subject and predicate Fragments end with semicolon last with period
+9b7f5a6b83ab22d6bc97f0e16e9cbd22d2fa0b61	editorial-grammar.md:213	G Numbers in text
+8479fbdd56d2b627aa8bb950b533cf27e25e5adc	editorial-grammar.md:215	G1 Words vs digits
+50f56381052c6f506bebc391f9776e15db4636b3	editorial-grammar.md:217	situation|format|example
+c9b40c42e9f57e56018a1715587f7b910d2183cb	editorial-grammar.md:218	1-9 in narrative text|words|Прошло три дня
+91a2321dc90b34b5a24e4263c5b59c83a3519524	editorial-grammar.md:219	10|digits|Участвовало 15 человек
+15b471348d54cd64f223afce770d1ee83869f49a	editorial-grammar.md:220	at sentence start|always words|Двадцать пять заявок поступило
+dc00b71533040902bfdda44700dc6128ce76e18b	editorial-grammar.md:221	adjacent numbers|one words one digits|три 10-литровых канистры
+6bf1f57f806a1d475d332c034de5039d8013b912	editorial-grammar.md:222	large round numbers|mixed|15 млн 20 тыс
+b748c39329fe9ef5e3196070d3b63170800850f2	editorial-grammar.md:223	tables formulas statistics|digits|5 12 230
+42099c9b11db376439f81d879e356e50f4d037db	editorial-grammar.md:224	monetary amounts in documents|digits words in parens|150 000 сто пятьдесят тысяч руб
+5deddd9723f5cd99cd313e0173cbce73b91d2874	editorial-grammar.md:226	G2 Ordinal numerals
+1c5517c009cecadf51b55d8cc2c9ac82d33b2047	editorial-grammar.md:228	Suffix via hyphen not period
+771b2dc51f5e400857717db5d55722e2909c2c68	editorial-grammar.md:230	correct|wrong
+066eceffb48f9377085e30278541704333e40a65	editorial-grammar.md:231	1-й этаж|1 этаж 1ый этаж
+f39172938c2ff89434686cc4e9f0fb2d2ccc5057	editorial-grammar.md:232	2-я попытка|2ая 2-ая
+df1d9730afd83173f0b42d16582af4cfe3f6780b	editorial-grammar.md:233	3-е место|3ье 3е
+4def4f41a8ef6ec606cc2a3e7fbb36f76335f1e9	editorial-grammar.md:234	5-го числа|5ого
+ae52217d64947150442ae16501a01a099edd1c6f	editorial-grammar.md:236	Suffix rule if letter before last ending letter is vowel -- one-letter suffix 1-й 2-я 3-е 5-м If consonant -- two letters 2-го 5-му
+4a3a7f870128c986e0926fb0a49ea07bcc5d37dc	editorial-grammar.md:238	When listing ordinals suffix only on last 1 2 и 3-й этажи not 1-й 2-й и 3-й
+12f0e215c23dab8d65f5725c343c8b0e7cf0816e	editorial-grammar.md:240	G3 Dates and time
+fbc3043ba476782f306f17fd22cff83aeb4a4448	editorial-grammar.md:242	context|format|example
+c1c6f51e800a0f4875f2088bf64653e1d182c3de	editorial-grammar.md:243	in text|day digit month word year digit|15 марта 2026 года
+3dd8fc3b697a2edab40a750c60a757841a7182ad	editorial-grammar.md:244	in tablesforms|numeric|15032026
+259bafbe2be5f9c374e8bc3155b8e1a73b6db3f9	editorial-grammar.md:245	decades|with suffix|90-е годы not 90-ые
+ffc7e9747599b25e87e68fe962c2a61e3df3f635	editorial-grammar.md:246	centuries|Roman|XX век XXI века
+421179fbb4db07b4d072e67f548f7acabbc74a0c	editorial-grammar.md:247	time|colon|1430 0900
+de631165cb2bcabbcec8869f1e0a7b16c5d89de2	editorial-grammar.md:248	date range|dash no spaces|2020--2025 январь--март
+4e349cf93b81424d102f42856b81172226012209	editorial-grammar.md:249	year range with ггг|with period|2020--2025 гг в 2024 г
+9b2dfe853b5038dbb2c148e6c2ce481f289c936a	editorial-grammar.md:251	G4 Phone numbers
+bf043913ada3b9dc8c3da683a7e6257e9bacec6e	editorial-grammar.md:253	Standard format 7 999 123-45-67
+ac07bf105dd34e4e5fa79a6f0a2a60e1dfb0857c	editorial-grammar.md:254	Country code separated by space
+e7a4170139211f2371d7896cebf9cd098a5cc177	editorial-grammar.md:255	Cityoperator code in parentheses
+85d2adab3be187ebd7c836270397e112be47f453	editorial-grammar.md:256	Number split by hyphens 322 digits 7-digit or 222 6-digit
+cca1b7e94d78503034fc80846b08fa4abbe90e9c	editorial-grammar.md:258	G5 Uniformity rule
+8b9e03d0ad222714aa11183e94761585183c50e6	editorial-grammar.md:260	Do not mix words and digits for same-type values within one sentenceparagraph
+a751f350c5d7aa78048900b1498b740807e29376	editorial-grammar.md:261	Wrong три менеджера 5 инженеров и семь техников
+93f014013a755482bbf09096fb86808253535a4d	editorial-grammar.md:262	Right 3 менеджера 5 инженеров и 7 техников
+28c27d4cc5c528af2b174ef37def654fe6a13fb1	editorial-grammar.md:266	H Clean language principles inspired by the anti-bureaucratic tradition cf N Gal M Ilyakhov
+a5a9acc47069f4ba3cf088d0d03013e61aca3f0a	editorial-grammar.md:268	H1 Officialese канцелярит -- disease markers
+91c7099bdcbb49d6848cad7985d456b5f2275e01	editorial-grammar.md:270	Verbal nouns instead of verbs приняли решение - решили оказали помощь - помогли
+ae67d114aec6412b819b3b2fb1a36ecdfa17d935	editorial-grammar.md:271	Genitive chains план мероприятий по обеспечению выполнения решений -- unreadable
+87c66eed870edde070f3e76152315fcf1c3e31c2	editorial-grammar.md:272	Passive voice instead of active Доклад был заслушан - Мы выслушали доклад
+fa97142a2fc7744258bfc54c6bed5d8b801ebcdd	editorial-grammar.md:273	Split predicates произвести уборку - убрать осуществить проверку - проверить
+cc57c4d7d86630ca533b94e9e3634047b6413cfa	editorial-grammar.md:274	Stacked participialgerundial phrases make sentence impassable
+2628e8a8b1c9b6c2e6877040aca87bfd278f307f	editorial-grammar.md:276	H2 Dead constructions - live replacements
+c070f2176a20a17fd1b90e44ab3e006f1026639d	editorial-grammar.md:278	dead|live
+91efb8fa5d2111eb015649215e6e776b1ee28035	editorial-grammar.md:279	произвести ремонт|отремонтировать
+158c550080c342170ba437e6b316e68d4ea7ecd6	editorial-grammar.md:280	осуществить доставку|доставить
+24d3e2e476e1e751cbba8b0ea1913b8574a09bfb	editorial-grammar.md:281	оказать содействие|помочь
+b1da9dd3acaeeaaa2b1e6d13901f1a61de2d7749	editorial-grammar.md:282	принять решение|решить
+242da62a0540433d312710fdea2a29e824c209ea	editorial-grammar.md:283	провести мероприятие|организовать устроить
+33e3dd7a3b1eb8824101d0d347a347f8467bdb9b	editorial-grammar.md:284	поставить в известность|сообщить предупредить
+2bcdc7f24409225100e119b557d4cdb8d549ed5b	editorial-grammar.md:285	иметь место|случиться произойти
+9f5b073702726f2e55e1173b69e21936594e7368	editorial-grammar.md:286	в данный момент времени|сейчас
+6baa5cbfb6b22d47be079348631adb4a923f5a0d	editorial-grammar.md:287	на сегодняшний день|сегодня
+0abc4fc542444a6cbbcf3bf9eb06f72cc3b773ef	editorial-grammar.md:288	в целях обеспечения|чтобы
+0dd989c1e37fdcf27f15f3b35efccbe6441737e5	editorial-grammar.md:289	в адрес кого-либо|кому-либо
+ca16297d130c3e04055483be784ab108634e0912	editorial-grammar.md:290	является одним из|один из
+a7c2c4e058c21c54efd7991b71c9f7a5cc545938	editorial-grammar.md:291	представляется возможным|можно
+280c6b7183177edfa5eecdb17f6bbc4324347b8d	editorial-grammar.md:292	в настоящее время|сейчас теперь
+6e01b420550cf6407c1d87f4b9f8dcb3c5fc2f8a	editorial-grammar.md:293	в случае если|если
+23ba4426b68f3cc810f5e1291c0430dc158ac9f9	editorial-grammar.md:294	в связи с тем что|потому что так как
+24ca76ea8427d0d207d5076e13e3b64e7ab738c4	editorial-grammar.md:295	вышеуказанный|этот упомянутый
+7556e86e2527d6344d2bfe7dad10f817d439dacb	editorial-grammar.md:296	нижеследующий|следующий такой
+ce905fb5ecccec59ff2927ae9abccc1f152b907b	editorial-grammar.md:297	надлежащий|нужный подходящий
+8783ca0b0f8194b7f0e225558f1a6e6d9c99aa79	editorial-grammar.md:298	осуществлять деятельность|работать
+2837935e2b009866bc81e924994836f6078bbb07	editorial-grammar.md:299	производить оплату|оплатить заплатить
+0b6e017a501065489a740c5f9fa9251b203fae69	editorial-grammar.md:300	производить полив|поливать
+03db8d778cab4186e0d72a9e5acd4e85c710cb01	editorial-grammar.md:301	осуществлять контроль|контролировать
+4231d0d1acb9315c891d6506dc4283251fa1aba7	editorial-grammar.md:302	принимать участие|участвовать
+1d83468247f7c55cc0448c818e5634acc7f1b267	editorial-grammar.md:303	оказывать влияние|влиять
+e49979c9407c79b460dca9abb3963ba16e4ef2cd	editorial-grammar.md:304	давать оценку|оценивать
+2de6d8d16dc3b106cdd5f97248c04d27e3866ac0	editorial-grammar.md:305	вести наблюдение|наблюдать
+8f656c6a72b87eadcce5a2fca0338818fd351a35	editorial-grammar.md:306	проводить исследование|исследовать
+0e55a20273f5a459724a0b448b96bee41ae2ed4a	editorial-grammar.md:307	вести подготовку|готовить готовиться
+cb6873085230ffa925b1cbec7e2b23a20abb2754	editorial-grammar.md:308	совершать покупку|покупать
+1b477bc9e4b893083e6d298cbaf219532bb71553	editorial-grammar.md:309	делать выводы|заключать считать
+ff17c4cac06c5dea4d5d9a5ed6b1dbf84ac6eff2	editorial-grammar.md:310	приносить извинения|извиняться
+efefc3b1ae885282dcd064b32d50f940ee06e707	editorial-grammar.md:311	нести ответственность|отвечать за
+4acc74527d949bd15d1b548f994e8e214dbbe917	editorial-grammar.md:312	дать соответствующее указание|поручить попросить
+33bc2a753bcd343a8f2bfd94136cea4b8d086a9a	editorial-grammar.md:313	задействовать ресурсы|использовать что конкретно
+e3771ae38df861c1bf0b69af3cf31525f8972644	editorial-grammar.md:314	был осуществлен выход|вышли
+a3af844034e70af976354d9e2a8fb2dec0f61b8a	editorial-grammar.md:315	находиться в состоянии усталости|устать
+359365b3c4f1a44a728abc377500cde67b759672	editorial-grammar.md:316	является обязательным условием|обязательно
+92d4c8b7f5a4377e35efc7ee752189f916bed4e5	editorial-grammar.md:317	на постоянной основе|постоянно регулярно
+443281ecf163e40d7b6ba1e85b5bf5a339b8ce2c	editorial-grammar.md:318	по причине того что|потому что
+47179b8c0ab61d6b9fec6ce126ca44ef09a2219d	editorial-grammar.md:319	с целью повышения|чтобы повысить
+1c5b916024b84a1652e387087da1fdf439bbff23	editorial-grammar.md:320	вопрос решается в рабочем порядке|решим до даты
+19f1a5e8642239b32e7e1b6bf40f15463b863cfe	editorial-grammar.md:322	H3 Translation traps leaking into Russian
+3d5b259c5d5d07f7a5b5df8294878b6bc19af380	editorial-grammar.md:324	English passive - Russian passive Было обнаружено что - Выяснилось что Мы обнаружили что
+47b0ee1f6fe834db0de83df359715d45818390da	editorial-grammar.md:325	Noun-heavy English - genitive chains Процесс принятия решения - Как мы решаем
+791327bdc0204864e5f13ca937926104d4c74cb5	editorial-grammar.md:326	Redundant possessives Он положил свою руку в свой карман - Он положил руку в карман
+04db7c7c39b8ed761583a9a8bb4fc964cfa34a84	editorial-grammar.md:327	Calques Имеет смысл играет роль -- acceptable but often displace better Russian alternatives
+95cdc897e672ce373af3fbb8bcbe1b1f6f6ba5d4	editorial-grammar.md:329	H4 How officialese spreads
+4a902653e1d2d6284985abcdfc29429972f08018	editorial-grammar.md:331	Media retelling official documents transfers their style to articles
+830150ac04f256cedb66091cef908cff7dc875c8	editorial-grammar.md:332	Corporate correspondence infects work and personal writing
+019c5a7eea27fd630d973125863f986c8b0f7981	editorial-grammar.md:333	Bureaucratic replies teach people to write the same way
+5ef2165a56b12e109ecd3ccf54043c1a9c076c7b	editorial-grammar.md:334	Desire to sound weightier -- long unclear phrase seems more solid than a simple word
+86963048fed0805771816a1eaa4e7137d811707a	editorial-grammar.md:336	H5 Clean text rules
+9b8e63e0e75042c78167bc2d37329516c5d1fcf6	editorial-grammar.md:338	Verb over noun replace verbal nouns with verbs wherever possible
+6ef0ee8b98b0f0806b125ded29c8163f9e6a70a5	editorial-grammar.md:339	Short sentence over long if it does not fit in one breath -- too long
+c800b49df63ac119a19dbe1d9eabe8e063a38dd7	editorial-grammar.md:340	Check genitive chains more than two genitives in a row -- rewrite
+8b8206b63bbf54e445d9f536605027e153171ea7	editorial-grammar.md:341	Active voice by default passive only when agent is unknown or irrelevant
+c9b8a800dc4bb71812857c0cf8e1d69523623698	editorial-grammar.md:342	Concrete over abstract в рамках мероприятия - на встрече в сфере образования - в школах
+e8c0cfc8eda945638e1b97db6d2c2c188a4522f0	editorial-grammar.md:343	Use simple words сделать not реализовать начать not приступить к осуществлению
+a9c619464ffe745b01342e5ab881b2f3d5d53460	editorial-grammar.md:344	Read aloud if you stumble -- rewrite the sentence
+c6d7147512709b5f392929cea8a704d68369217f	editorial-punctuation.md:8	A Punctuation in complex sentences
+e602712987dfadf865d1e9bdde7168eaac38cd29	editorial-punctuation.md:10	A1 Comma before subordinating conjunctions
+15a0ffe32c0228141085dc2be6e0ba31851cf976	editorial-punctuation.md:12	Subordinate clause is separated by comma Conjunctions что который где когда если чтобы потому что так как mark the boundary
+5e301d5bf889af12bb43cfa29f278f37478efa48	editorial-punctuation.md:14	Base rule comma before the conjunction starting the subordinate clause
+d68796a5ff7b5dd0b9898dab23bac7905f09d059	editorial-punctuation.md:16	When comma before что is NOT needed
+2bdfae2d5e9048b9aaf2dcd5f95d474ddaa4e1d7	editorial-punctuation.md:18	construction|comma|rule
+c7069737d37435d83198e8e90c2599eb96e36ed5	editorial-punctuation.md:19	compound conjunction stays whole|no|потому что is one unit comma before потому not что
+ef0bc8ab552491825da00e4d7e62f2c2fe1e1e20	editorial-punctuation.md:20	negation что|no|fixed expression не то что обидно
+d3c85524079af810256ad20530e97ee832436b0e	editorial-punctuation.md:21	semantically whole phrase|no|делай что хочешь -- indivisible
+4c30e221d493776400d994e3fbeddaa84f567bd3	editorial-punctuation.md:22	что interrogative pronoun|no|что случилось -- not a conjunction
+34754ad6fc839d1d99eb9d887e66b92c0c9db930	editorial-punctuation.md:23	two conjunctions without то|no|no comma between что and если when то follows
+d5d374b196a28b0283e42b4bc45f50315f821733	editorial-punctuation.md:24	parallel subordinates with и|no|я знаю что он придет и что поможет -- no comma before second что
+59a5f6bff91044f2e6fa9bafdd3a5bc46154f43e	editorial-punctuation.md:26	Compound conjunctions -- where to place the comma
+151ed3818be8a184bfe710dfe1e435fb7a416799	editorial-punctuation.md:28	Compound subordinating conjunctions can be split comma moves from start of subordinate to first part of conjunction when author emphasizes reasoncondition
+5c40f0cea291672be17f22cfecb20601e89fbfdc	editorial-punctuation.md:30	Neutral comma before whole conjunction потому что для того чтобы
+42c8fc55bfba6c5765b0916c2cfcbf140ebc72bb	editorial-punctuation.md:31	Emphatic comma after first part потому что для того чтобы
+c0538ed9ebc114f2e48cfe9518f92cc07d8d9550	editorial-punctuation.md:32	Same pattern несмотря на то что в связи с тем что ввиду того что благодаря тому что
+e5bccdbfa261bd5d5b0efe3aaddc74e8f0df0162	editorial-punctuation.md:34	A2 Dash between subject and predicate
+f10ceb89497f694f68554710893de4067fe4eee2	editorial-punctuation.md:36	Dash is placed when subject and predicate are the same part of speech without a linking verb
+e35f0a790c9a02019afe57025d368cd702245f04	editorial-punctuation.md:38	subject|predicate|dash
+d0e14963a1c73c433d6f8ab82299e0023fe65062	editorial-punctuation.md:39	noun nom|noun nom|yes Москва -- столица России
+c0501f3175c77781a0ed8983fa653839f9273e3d	editorial-punctuation.md:40	infinitive|infinitive|yes Жить -- Родине служить
+8fb14ab8fe4b57809b2b172b35b2940dac8f4692	editorial-punctuation.md:41	noun nom|infinitive|yes Наша задача -- закончить проект
+7775795f652b36411fc5644f3d01c7e0b29295d9	editorial-punctuation.md:42	infinitive|noun nom|yes Читать -- большое удовольствие
+e4870866fea924eba06806440efe6c724747954a	editorial-punctuation.md:43	numeral|numeral|yes Дважды два -- четыре
+fcae8f3efb5094abb70a61869d31c7987dc645cd	editorial-punctuation.md:44	noun nom|этовотзначит noun|yes Язык -- это инструмент мышления
+24074674c5842cf6238ef42ce8742e515a1c8cf7	editorial-punctuation.md:46	Dash is NOT placed
+df9b8533af4a628d57337fe009718c84fcc169b6	editorial-punctuation.md:48	не before predicate Бедность не порок
+53f8e73d9b38d7af960a4273dcce0f68aaf5ee92	editorial-punctuation.md:49	Subject is personal pronoun Он врач but Он -- это тот кто поможет
+630747147ba8a6986a55b8bea35205633f440f65	editorial-punctuation.md:50	Parentheticaladverbconjunctionparticle between Собака тоже друг Вода словно зеркало
+bc1095a7fed721b50cc948b20816b29f381c923c	editorial-punctuation.md:51	Predicate before subject inversion Замечательный человек ваш отец
+8c4758da03324f036cd3844f6f9862828bb6ed19	editorial-punctuation.md:52	какбудтословно between Глаза как звезды
+2d1ee77940829b80715abb977b7e09d36778b210	editorial-punctuation.md:54	A3 Colon
+a78a3a2ad3f17f796a39fa7309bf65e1d9e734e6	editorial-punctuation.md:56	Generalizing word before enumeration На столе договор акт счет-фактура
+a92ee5e815c5d0c6a241b2a49be29279f34a83dd	editorial-punctuation.md:57	Asyndetic compound -- cause потому что Я не пошел поднялась температура
+24cfc36f8de963d70e1191abda990918479942c0	editorial-punctuation.md:58	Asyndetic -- clarification а именно Погода была ужасная дул ветер шел дождь
+3b2aefed8d7a132c15942bfa622fc7e9a24eb2cb	editorial-punctuation.md:59	Asyndetic -- supplement что Я чувствовал что-то изменилось
+2cc0f91f2dd93fb38c7cf006487af59c64d93f75	editorial-punctuation.md:60	Direct speech after author's words Он сказал Я уже здесь
+497a5a4ad17898a5ee3ce13767417bc41f364737	editorial-punctuation.md:62	A4 Semicolon
+daf1e00e8a0f0248277668679606ed61a017bfd4	editorial-punctuation.md:64	Extended parallel members with internal commas
+84122be92ef09d77d2f4cd816ed878d432f2c5d8	editorial-punctuation.md:65	Significantly extended parts of asyndetic compound sentence
+6cff2dbb8050c05895685cd6e5177f7ccd2fe7c2	editorial-punctuation.md:66	Lowercase list items see section F in editorial-grammar
